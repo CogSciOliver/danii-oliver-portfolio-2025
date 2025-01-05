@@ -9,7 +9,7 @@ export default function NotFound() {
 			alignItems="center"
 		>
 			<Image
-				src={`https://${baseURL}/public/images/404.webp`}
+				src="../public/images/404.webp"
 				width={500}
 				height={500}
 				alt="404 Meme"
