@@ -26,12 +26,13 @@ npm run dev
 
 **4. Edit config**
 ```
-src/app/resources/config
+XX src/app/resources/config 
 ```
 
 **5. Edit content**
 ```
-src/app/resources/content (or content-i18n for localization)
+XX src/app/resources/content (or content-i18n for localization)
+!!Need to read about content-i18n for localization
 ```
 
 **6. Create blog posts / projects**

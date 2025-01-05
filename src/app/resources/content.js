@@ -1,21 +1,21 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'Danii',
+    lastName:  'Oliver',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Design Engineer',
+    role:      'AI/ML/UX Focused Software Engineer',
     avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    location:  'America/New_York',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['English', 'Baby ASL']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
     display: true,
     title: <>Subscribe to {person.firstName}'s Newsletter</>,
-    description: <>I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering.</>
+    description: <>I occasionally write about my hackathons, ai technology, and share thoughts on the intersection of business leadership, product and engineering.</>
 }
 
 const social = [
@@ -24,22 +24,17 @@ const social = [
     {
         name: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
+        link: 'https://github.com/DTheArtist',
     },
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
-    },
-    {
-        name: 'X',
-        icon: 'x',
-        link: '',
+        link: 'https://www.linkedin.com/in/daniioliver',
     },
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'mailto:info@daniioliver.com',
     },
 ]
 
@@ -47,13 +42,13 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    headline: <>Tech Business engineer and builder</>,
+    subline: <>I'm ${person.name}, a design engineer at <InlineCode>Q.I.A.</InlineCode>, where I code intuitive<br/> user experiences to address modern pain points with tech. I am a lifelong learner, building my own projects when not undercontract.</>
 }
 
 const about = {
     label: 'About',
-    title: 'About me',
+    title: `About ${person.name}`,
     description: `Meet ${person.name}, ${person.role} from ${person.location}`,
     tableOfContent: {
         display: true,
@@ -69,38 +64,92 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>${person.name} is a US-based ${person.role} with a predisposition for transforming ideas into tech based solutions. Their work spans digital interfaces, interactive experiences, and the convergence of business and technology.</>
     },
     work: {
         display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
-                timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                company: 'Chi&apos;Va',
+                timeframe: '2024 - Present',
+                role: 'Technical Founder',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+                    <>Engineered the AI/ML/UI/UX for the Chi'Va platform, resulting in a 20% increase in user engagement and 90% reduced service costs.</>,
+                    <>Developed the integration of AI tools into session workflows, enabling providers to recoup 40%-60% of lost revenue and provide clients with an 80% more effective session.</>
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
                         src: '/images/projects/project-01/cover-01.jpg',
-                        alt: 'Once UI Project',
+                        alt: 'Chi&apos;Va EMDR Project',
+                        width: 16,
+                        height: 9
+                    },
+                    {
+                        src: '/images/projects/project-01/cover-01.jpg',
+                        alt: 'Chi&apos;Va EMDR Project',
                         width: 16,
                         height: 9
                     }
                 ]
             },
             {
-                company: 'Creativ3',
-                timeframe: '2018 - 2022',
-                role: 'Lead Designer',
+                company: 'Market Reader',
+                timeframe: '2022 - 2023',
+                role: 'CPO/Head UX Engineer',
                 achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>Developed a SaaS system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
+                    <>Led a cross-functional team to launch a new FinTech product, contributing to a 15% increase in overall company revenue.</>
                 ],
-                images: [ ]
+                images: [
+                    {
+                        src: '/images/projects/project-01/cover-01.jpg',
+                        alt: 'Market Reader Project',
+                        width: 16,
+                        height: 9
+                    },
+                    {
+                        src: '/images/projects/project-01/cover-01.jpg',
+                        alt: 'Market Reader Project',
+                        width: 16,
+                        height: 9
+                    }
+                 ]
+            },
+            {
+                company: 'Damn Digital Studio',
+                timeframe: '2014 - 2021',
+                role: 'UX Engineer',
+                achievements: [
+                    <>Developed consumer goods platforms that unified the brands across multiple platforms, improving marketing and UX by 90%.</>,
+                    <>Led a cross-functional team to launch a several product lines, contributing to a 45% increase in overall company revenue.</>
+                ],
+                images: [
+                    {
+                        src: '/images/projects/project-01/cover-01.jpg',
+                        alt: 'Market Reader Project',
+                        width: 16,
+                        height: 9
+                    },
+                    {
+                        src: '/images/projects/project-01/cover-01.jpg',
+                        alt: 'Market Reader Project',
+                        width: 16,
+                        height: 9
+                    },
+                    {
+                        src: '/images/projects/project-01/cover-01.jpg',
+                        alt: 'Market Reader Project',
+                        width: 16,
+                        height: 9
+                    },
+                    {
+                        src: '/images/projects/project-01/cover-01.jpg',
+                        alt: 'Market Reader Project',
+                        width: 16,
+                        height: 9
+                    }
+                 ]
             }
         ]
     },
@@ -109,12 +158,16 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'Section School',
+                description: <>Studied strategy & leadership.</>,
             },
             {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'NYU',
+                description: <>Studied ITP, OOP, 3D, Operational Management.</>,
+            },
+            {
+                name: 'City University of New York',
+                description: <>Studied HCI software engineering, business & Communication with minors in marketing.</>,
             }
         ]
     },
@@ -124,7 +177,7 @@ const about = {
         skills: [
             {
                 title: 'Figma',
-                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+                description: <>Able to prototype in Figma, Adobe, Paper.</>,
                 // optional: leave the array empty if you don't want to display images
                 images: [
                     {
@@ -142,8 +195,8 @@ const about = {
                 ]
             },
             {
-                title: 'Next.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+                title: 'Full Stack Node & Python',
+                description: <>Building next gen apps with AWS + AI + Hugging Face + Next.js + Supabase.</>,
                 // optional: leave the array empty if you don't want to display images
                 images: [
                     {
@@ -159,8 +212,8 @@ const about = {
 }
 
 const blog = {
-    label: 'Blog',
-    title: 'Writing about design and tech...',
+    label: 'Case Studies',
+    title: 'Key takeaways from projects built to meet client expectations',
     description: `Read what ${person.name} has been up to recently`
     // Create new blog posts by adding a new .mdx file to app/blog/posts
     // All posts will be listed on the /blog route
@@ -168,16 +221,16 @@ const blog = {
 
 const work = {
     label: 'Work',
-    title: 'My projects',
-    description: `Design and dev projects by ${person.name}`
+    title: 'Product Projects',
+    description: `Business product projects by ${person.name}`
     // Create new project pages by adding a new .mdx file to app/blog/posts
     // All projects will be listed on the /home and /work routes
 }
 
 const gallery = {
-    label: 'Gallery',
-    title: 'My photo gallery',
-    description: `A photo collection by ${person.name}`,
+    label: 'Projects',
+    title: 'Project Portfolio',
+    description: `A project photo collection by ${person.name}`,
     // Images from https://pexels.com
     images: [
         { 
