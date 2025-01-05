@@ -1,4 +1,5 @@
 import { Flex, Heading, Text } from "@/once-ui/components";
+import Image from "next/image";
 
 export default function NotFound() {
 	return (
@@ -8,11 +9,12 @@ export default function NotFound() {
 			alignItems="center"
 		>
 			<Image
-				src="public/images/404.webp"
+				src={`https://${baseURL}/public/images/404.webp`}
 				width={500}
 				height={500}
-				alt="Picture of the author"
+				alt="404 Meme"
 			/>
+
 			<Text
 				marginBottom="s"
 				variant="display-strong-xl"
