@@ -1,4 +1,4 @@
-const baseURL = 'demo.magic-portfolio.com'
+const baseURL = 'daniioliver.com'
 
 // Enable localization
 const i18n = false;
@@ -53,7 +53,7 @@ const style = {
 
 const display = {
     location: true,
-    time:     true
+    time:     false
 }
 
 const mailchimp = {
