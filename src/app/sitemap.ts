@@ -6,9 +6,9 @@ export default async function sitemap() {
     const locales = routing.locales;
     const includeLocalePrefix = locales.length > 1;
 
-    let blogs = locales.flatMap((locale) => 
-        getPosts(['src', 'app', '[locale]', 'blog', 'posts', locale]).map((post) => ({
-            url: `${baseURL}${includeLocalePrefix ? `/${locale}` : ''}/blog/${post.slug}`,
+    let casestudies = locales.flatMap((locale) => 
+        getPosts(['src', 'app', '[locale]', 'casestudies', 'posts', locale]).map((post) => ({
+            url: `${baseURL}${includeLocalePrefix ? `/${locale}` : ''}/casestudies/${post.slug}`,
             lastModified: post.metadata.publishedAt,
         }))
     );
@@ -29,5 +29,5 @@ export default async function sitemap() {
         }))
     );
 
-    return [...routes, ...blogs, ...works]
+    return [...routes, ...casestudies, ...works]
 }

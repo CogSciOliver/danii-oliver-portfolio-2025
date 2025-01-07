@@ -270,19 +270,19 @@ const about = {
 	},
 };
 
-const blog = {
+const casestudies = {
 	label: "Case Studies",
 	title: "Key takeaways from projects built to meet client expectations",
 	description: `Read what ${person.name} has been up to recently`,
-	// Create new blog posts by adding a new .mdx file to app/blog/posts
-	// All posts will be listed on the /blog route
+	// Create new case study posts by adding a new .mdx file to app/casestudies/posts
+	// All posts will be listed on the /casestudies route
 };
 
 const work = {
 	label: "Work",
 	title: "Product Projects",
 	description: `Business product projects by ${person.name}`,
-	// Create new project pages by adding a new .mdx file to app/blog/posts
+	// Create new project pages by adding a new .mdx file to app/casestudies/posts
 	// All projects will be listed on the /home and /work routes
 };
 
@@ -293,12 +293,12 @@ const gallery = {
 	// Images from https://pexels.com
 	images: [
 		{
-			src: "/images/gallery/public/product-sdz-01.jpg",
+			src: "/images/gallery/product-sdz-01.jpg",
 			alt: "image",
 			orientation: "vertical",
 		},
 		{
-			src: "/images/gallery/project-mr-01.jpg",
+			src: "/images/gallery/saas-mr-01.jpg",
 			alt: "image",
 			orientation: "horizontal",
 		},
@@ -365,4 +365,4 @@ const gallery = {
 	],
 };
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, newsletter, home, about, casestudies, work, gallery };

@@ -35,9 +35,9 @@ XX src/app/resources/content (or content-i18n for localization)
 !!Need to read about content-i18n for localization
 ```
 
-**6. Create blog posts / projects**
+**6. Create case study posts / projects**
 ```
-Add a new .mdx file to src/app/[locale]/blog/posts or src/app/[locale]/work/projects
+Add a new .mdx file to src/app/[locale]/casestudies/posts or src/app/[locale]/work/projects
 ```
 
 # **Features**
@@ -56,7 +56,7 @@ Add a new .mdx file to src/app/[locale]/blog/posts or src/app/[locale]/work/proj
 
 ## **Content**
 - Render sections conditionally based on the content file
-- Enable or disable pages for blog, work, gallery and about / CV
+- Enable or disable pages for casestudies, work, gallery and about / CV
 - Generate and display social links automatically
 - Set up password protection for URLs
 

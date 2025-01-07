@@ -5,7 +5,7 @@ import { Projects } from '@/components/work/Projects';
 
 import { baseURL, routes, renderContent } from '@/app/resources'; 
 import { Mailchimp } from '@/components';
-import { Posts } from '@/components/blog/Posts';
+import { Posts } from '@/components/casestudies/Posts';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 
@@ -127,7 +127,7 @@ export default function Home(
 			<RevealFx translateY="16" delay={0.6}>
 				<Projects range={[1,1]} locale={locale}/>
 			</RevealFx>
-			{routes['/blog'] && (
+			{routes['/casestudies'] && (
 				<Flex
 					fillWidth gap="24"
 					mobileDirection="column">
@@ -136,7 +136,7 @@ export default function Home(
 							as="h2"
 							variant="display-strong-xs"
 							wrap="balance">
-							Latest from the blog
+							Latest Case Studies
 						</Heading>
 					</Flex>
 					<Flex
