@@ -9,7 +9,7 @@ const person = {
 	role: "AI/ML-Focused Product Executive and Technical Founder with Engineering Expertise",
 	avatar: "/images/avatar.jpg",
 	location: "America/New_York", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-	languages: ["English", "Baby ASL"], // optional: Leave the array empty if you don't want to display languages
+	languages: ["English", "Python", "TypeScript", "JavaScript", "Baby ASL"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -249,7 +249,7 @@ const about = {
 						height: 9,
 					},
 					{
-						src: "/images/gallery/project-sdz-04.jpg",
+						src: "/images/gallery/product-sdz-04.jpg",
 						alt: "Project image",
 						width: 16,
 						height: 9,
