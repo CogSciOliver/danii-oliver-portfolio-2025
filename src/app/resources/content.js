@@ -238,6 +238,30 @@ const about = {
 		title: "Technical skills",
 		skills: [
 			{
+				title: "Full Stack Node & Python",
+				description: (
+					<>
+						Building next gen apps with AWS + AI + Hugging Face +
+						Next.js + Supabase.
+					</>
+				),
+				// optional: leave the array empty if you don't want to display images
+				images: [
+					{
+						src: "/images/gallery/project-ai-01.jpg",
+						alt: "Project image",
+						width: 16,
+						height: 9,
+					},
+					{
+						src: "/images/gallery/project-ai-02.jpg",
+						alt: "Project image",
+						width: 16,
+						height: 9,
+					},
+				],
+			},
+			{
 				title: "Figma",
 				description: <>Able to prototype in Figma, Adobe, Paper.</>,
 				// optional: leave the array empty if you don't want to display images
@@ -250,24 +274,6 @@ const about = {
 					},
 					{
 						src: "/images/gallery/product-sdz-04.jpg",
-						alt: "Project image",
-						width: 16,
-						height: 9,
-					},
-				],
-			},
-			{
-				title: "Full Stack Node & Python",
-				description: (
-					<>
-						Building next gen apps with AWS + AI + Hugging Face +
-						Next.js + Supabase.
-					</>
-				),
-				// optional: leave the array empty if you don't want to display images
-				images: [
-					{
-						src: "/images/gallery/project-ai-01.jpg",
 						alt: "Project image",
 						width: 16,
 						height: 9,
