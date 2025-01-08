@@ -51,14 +51,15 @@ const home = {
 	headline: <>Product Strategist and Tech Business Innovator</>,
 	subline: (
 		<>
-			I’m ${person.name}, Chief Product Officer and builder at{" "}
-			<InlineCode>Q.I.A.</InlineCode>, where I lead the development of
-			transformative tech solutions that address modern challenges with
-			innovation and strategic vision. Combining a foundation in software
-			engineering with a focus on user-centered product strategy, I thrive
-			at the intersection of business growth and technical innovation. A
-			lifelong learner and entrepreneur, I build and refine impactful
-			projects that empower users and drive meaningful outcomes.
+			I’m {person.name}, Chief Product Officer and builder at{" "}
+			<InlineCode>Quantum Innovation Advisors</InlineCode>, where I lead
+			the development of transformative tech solutions that address modern
+			challenges with innovation and strategic vision. Combining a
+			foundation in software engineering with a focus on user-centered
+			product strategy, I thrive at the intersection of business growth
+			and technical innovation. A lifelong learner and entrepreneur, I
+			build and refine impactful projects that empower users and drive
+			meaningful outcomes.
 		</>
 	),
 };
@@ -75,7 +76,7 @@ const about = {
 		display: true,
 	},
 	calendar: {
-		display: true,
+		display: false,
 		link: "https://cal.com",
 	},
 	intro: {
@@ -83,10 +84,10 @@ const about = {
 		title: "Introduction",
 		description: (
 			<>
-				${person.name} is a US-based ${person.role} with a
-				predisposition for transforming ideas into tech based solutions.
-				Their work spans digital interfaces, interactive experiences,
-				and the convergence of business and technology.
+				{person.name} is a US-based {person.role} with a predisposition
+				for transforming ideas into tech based solutions. Their work
+				spans digital interfaces, interactive experiences, and the
+				convergence of business and technology.
 			</>
 		),
 	},
@@ -95,33 +96,40 @@ const about = {
 		title: "Work Experience",
 		experiences: [
 			{
-				company: "Chi&apos;Va",
+				company: "Chi'Va EMDR",
 				timeframe: "2024 - Present",
-				role: "Technical Founder",
+				role: "Technical Founder, CTO, CPO",
 				achievements: [
+					<>
+						Developed behavioral health services platform with
+						utilizing the integration of AI tools into session
+						workflows, enabling providers to recoup 40%-60% of lost
+						revenue and provide clients with an 80% more effective
+						session.
+					</>,
 					<>
 						Engineered the AI/ML/UI/UX for the Chi'Va platform,
 						resulting in a 20% increase in user engagement and 90%
 						reduced service costs.
 					</>,
-					<>
-						Developed the integration of AI tools into session
-						workflows, enabling providers to recoup 40%-60% of lost
-						revenue and provide clients with an 80% more effective
-						session.
-					</>,
 				],
 				images: [
 					// optional: leave the array empty if you don't want to display images
 					{
-						src: "/images/projects/project-01/cover-01.jpg",
-						alt: "Chi&apos;Va EMDR Project",
+						src: "/images/gallery/project-chiva-01.jpg",
+						alt: "Chi'Va EMDR Platform",
 						width: 16,
 						height: 9,
 					},
 					{
-						src: "/images/projects/project-01/cover-01.jpg",
-						alt: "Chi&apos;Va EMDR Project",
+						src: "/images/gallery/project-chiva-02.jpg",
+						alt: "Chi'Va EMDR Platform",
+						width: 16,
+						height: 9,
+					},
+					{
+						src: "/images/gallery/project-ai-02.jpg",
+						alt: "Project image",
 						width: 16,
 						height: 9,
 					},
@@ -144,13 +152,13 @@ const about = {
 				],
 				images: [
 					{
-						src: "/images/projects/project-01/cover-01.jpg",
+						src: "/images/gallery/project-mr-05.jpg",
 						alt: "Market Reader Project",
 						width: 16,
 						height: 9,
 					},
 					{
-						src: "/images/projects/project-01/cover-01.jpg",
+						src: "/images/gallery/project-mr-07.jpg",
 						alt: "Market Reader Project",
 						width: 16,
 						height: 9,
@@ -163,9 +171,9 @@ const about = {
 				role: "UX Engineer",
 				achievements: [
 					<>
-						Developed consumer goods platforms that unified the
-						brands across multiple platforms, improving marketing
-						and UX by 90%.
+						Developed consumer goods solutions that unified client
+						brands across multiple platforms, improving marketing,
+						UX and CX.
 					</>,
 					<>
 						Led a cross-functional team to launch a several product
@@ -175,25 +183,25 @@ const about = {
 				],
 				images: [
 					{
-						src: "/images/projects/project-01/cover-01.jpg",
+						src: "/images/gallery/project-iso-03.jpg",
 						alt: "Market Reader Project",
 						width: 16,
 						height: 9,
 					},
 					{
-						src: "/images/projects/project-01/cover-01.jpg",
+						src: "/images/gallery/project-usd-01.jpg",
 						alt: "Market Reader Project",
 						width: 16,
 						height: 9,
 					},
 					{
-						src: "/images/projects/project-01/cover-01.jpg",
+						src: "/images/gallery/project-nyt-01.jpg",
 						alt: "Market Reader Project",
 						width: 16,
 						height: 9,
 					},
 					{
-						src: "/images/projects/project-01/cover-01.jpg",
+						src: "/images/gallery/project-pch-01.jpg",
 						alt: "Market Reader Project",
 						width: 16,
 						height: 9,
@@ -235,13 +243,13 @@ const about = {
 				// optional: leave the array empty if you don't want to display images
 				images: [
 					{
-						src: "/images/projects/project-01/cover-02.jpg",
+						src: "/images/gallery/project-pes-04.jpg",
 						alt: "Project image",
 						width: 16,
 						height: 9,
 					},
 					{
-						src: "/images/projects/project-01/cover-03.jpg",
+						src: "/images/gallery/project-sdz-04.jpg",
 						alt: "Project image",
 						width: 16,
 						height: 9,
@@ -259,7 +267,7 @@ const about = {
 				// optional: leave the array empty if you don't want to display images
 				images: [
 					{
-						src: "/images/projects/project-01/cover-04.jpg",
+						src: "/images/gallery/project-ai-01.jpg",
 						alt: "Project image",
 						width: 16,
 						height: 9,
