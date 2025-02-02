@@ -6,7 +6,7 @@ const person = {
 	get name() {
 		return `${this.firstName} ${this.lastName}`;
 	},
-	role: "AI/ML-Focused Product Executive and Technical Founder with Engineering Expertise",
+	role: "Strategic Tech & Product Partner for Startups",
 	avatar: "/images/avatar.jpg",
 	location: "America/New_York", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
 	languages: ["English", "Python", "TypeScript", "JavaScript", "Baby ASL"], // optional: Leave the array empty if you don't want to display languages
@@ -38,9 +38,14 @@ const social = [
 		link: "https://www.linkedin.com/in/daniioliver",
 	},
 	{
+		name: "Company",
+		icon: "qiaCorp",
+		link: "https://www.quantuminnovationadvisors.com/",
+	},
+	{
 		name: "Email",
 		icon: "email",
-		link: "mailto:info@daniioliver.com",
+		link: "mailto:productdesign@daniioliver.com",
 	},
 ];
 

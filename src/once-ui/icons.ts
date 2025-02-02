@@ -1,4 +1,4 @@
-import { IconType } from 'react-icons';
+import { IconType } from "react-icons";
 
 import {
 	HiChevronUp,
@@ -18,7 +18,7 @@ import {
 	HiMiniGlobeAsiaAustralia,
 	HiEnvelope,
 	HiCalendarDays,
-	HiClipboard
+	HiClipboard,
 } from "react-icons/hi2";
 
 import {
@@ -26,19 +26,16 @@ import {
 	PiUserCircleDuotone,
 	PiGridFourDuotone,
 	PiBookBookmarkDuotone,
-	PiImageDuotone
+	PiImageDuotone,
 } from "react-icons/pi";
 
-import {
-	FaDiscord,
-	FaGithub,
-	FaLinkedin,
-	FaXTwitter
-} from "react-icons/fa6";
+import { FaDiscord, FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+
+import { AiOutlineHdd } from "react-icons/ai";
 
 export const iconLibrary: Record<string, IconType> = {
 	chevronUp: HiChevronUp,
-    chevronDown: HiChevronDown,
+	chevronDown: HiChevronDown,
 	chevronRight: HiChevronRight,
 	chevronLeft: HiChevronLeft,
 	refresh: HiOutlineArrowPath,
@@ -63,5 +60,6 @@ export const iconLibrary: Record<string, IconType> = {
 	github: FaGithub,
 	linkedin: FaLinkedin,
 	x: FaXTwitter,
-	clipboard: HiClipboard
+	clipboard: HiClipboard,
+	qiaCorp: AiOutlineHdd,
 };
