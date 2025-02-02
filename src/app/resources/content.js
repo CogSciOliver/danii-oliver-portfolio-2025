@@ -48,18 +48,21 @@ const home = {
 	label: "Home",
 	title: `${person.name}'s Portfolio`,
 	description: `Portfolio website showcasing my work as a ${person.role}`,
-	headline: <>Product, Strategy, Software Engineering, Tech Business</>,
+	headline: <>Strategic Tech Leadership for Startups & Scaling Businesses.</>,
 	subline: (
 		<>
-			I’m {person.name}, the founder and CPO & CTO and Full Stack Engineer
-			at <InlineCode>Quantum Innovation Advisors</InlineCode>, where I
-			lead the development of transformative tech solutions that address
-			modern challenges with innovation and strategic vision. Combining a
-			foundation in software engineering with a focus on user-centered
-			product strategy, I thrive at the intersection of business growth
-			and technical innovation. A lifelong learner and entrepreneur, I
-			build and refine impactful projects that empower users and drive
-			meaningful outcomes.
+			I help startup founders and CEOs bridge the gap between vision and
+			execution. As a Founder, CTO, and CPO of Quantum Innovation
+			Advisors, I specialize in software engineering, product strategy,
+			and tech business growth—taking funded ideas from concept to MVP and
+			beyond.
+			<br />
+			<br /> With deep expertise in full-stack engineering and
+			user-centered design, I lead the development of scalable,
+			high-impact solutions that tackle modern challenges with innovation
+			and strategic vision. Whether refining an early-stage product or
+			optimizing an existing platform, I ensure technology aligns
+			seamlessly with business goals and market demands.
 		</>
 	),
 };
@@ -84,10 +87,19 @@ const about = {
 		title: "Introduction",
 		description: (
 			<>
-				{person.name} is a US-based {person.role} with a predisposition
-				for transforming ideas into tech based solutions. Their work
-				spans digital interfaces, interactive experiences, and the
-				convergence of business and technology.
+				{person.name} helps startup founders and CEOs turn ideas into
+				scalable, high-impact tech solutions. Their expertise spans
+				digital interfaces, interactive experiences, SaaS, PaaS and the
+				intersection of business and technology&mdash;ensuring products
+				are not just built, but strategically designed for growth and
+				long term-term success.
+				<br />
+				<br />
+				Whether you’re launching an MVP, refining your product strategy,
+				or optimizing engineering execution, {person.name} provides the
+				strategic leadership and technical expertise needed to build
+				technology that is scalable, profitable, and gives you a
+				competitive edge.
 			</>
 		),
 	},
