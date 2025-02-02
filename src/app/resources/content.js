@@ -48,13 +48,13 @@ const home = {
 	label: "Home",
 	title: `${person.name}'s Portfolio`,
 	description: `Portfolio website showcasing my work as a ${person.role}`,
-	headline: <>Product Strategist and Tech Business Innovator</>,
+	headline: <>Product, Strategy, Software Engineering, Tech Business</>,
 	subline: (
 		<>
-			I’m {person.name}, Chief Product Officer and builder at{" "}
-			<InlineCode>Quantum Innovation Advisors</InlineCode>, where I lead
-			the development of transformative tech solutions that address modern
-			challenges with innovation and strategic vision. Combining a
+			I’m {person.name}, the founder and CPO & CTO and Full Stack Engineer
+			at <InlineCode>Quantum Innovation Advisors</InlineCode>, where I
+			lead the development of transformative tech solutions that address
+			modern challenges with innovation and strategic vision. Combining a
 			foundation in software engineering with a focus on user-centered
 			product strategy, I thrive at the intersection of business growth
 			and technical innovation. A lifelong learner and entrepreneur, I
@@ -215,8 +215,17 @@ const about = {
 		title: "Studies",
 		institutions: [
 			{
+				name: "AWS",
+				description: (
+					<>
+						Studing for AI / ML, Cloud Engineering & Solutions
+						Architect.
+					</>
+				),
+			},
+			{
 				name: "Section School",
-				description: <>Studied strategy & leadership.</>,
+				description: <>Studied AI, strategy & leadership.</>,
 			},
 			{
 				name: "NYU",
@@ -226,8 +235,8 @@ const about = {
 				name: "City University of New York",
 				description: (
 					<>
-						Studied HCI software engineering, business &
-						Communication with minors in marketing.
+						Studied HCI software engineering, business & digital
+						communication with a minor in marketing.
 					</>
 				),
 			},
