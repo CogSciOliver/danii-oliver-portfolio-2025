@@ -80,8 +80,8 @@ export default function CaseStudies(
             </Heading>
 			<Flex
 				fillWidth flex={1} direction="column">
-				<Posts range={[1,3]} locale={locale} thumbnail/>
-				<Posts range={[4]} columns="2" locale={locale}/>
+				<Posts range={[1,4]} locale={locale} thumbnail/>
+				<Posts range={[5]} columns="2" locale={locale}/>
 			</Flex>
             {newsletter.display && (
                 <Mailchimp newsletter={newsletter} />
