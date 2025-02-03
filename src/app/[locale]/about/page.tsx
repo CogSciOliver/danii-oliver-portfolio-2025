@@ -353,7 +353,7 @@ export default function About({
 													fillWidth
 													paddingTop="m"
 													paddingLeft="40"
-													paddingRight="10"
+													gap="l"
 													wrap
 												>
 													{experience.images.map(
