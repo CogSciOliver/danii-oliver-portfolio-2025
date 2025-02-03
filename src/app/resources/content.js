@@ -138,20 +138,26 @@ const about = {
 				images: [
 					// optional: leave the array empty if you don't want to display images
 					{
+						src: "/images/gallery/project-chiva-03.jpg",
+						alt: "Chi'Va EMDR Platform Marketing",
+						width: 16,
+						height: 9,
+					},
+					{
 						src: "/images/gallery/project-chiva-01.jpg",
-						alt: "Chi'Va EMDR Platform",
+						alt: "Chi'Va EMDR Chat",
 						width: 16,
 						height: 9,
 					},
 					{
 						src: "/images/gallery/project-chiva-02.jpg",
-						alt: "Chi'Va EMDR Platform",
+						alt: "Chi'Va EMDR Therapy Session",
 						width: 16,
 						height: 9,
 					},
 					{
 						src: "/images/gallery/project-ai-02.jpg",
-						alt: "Project image",
+						alt: "AI Cloud Engineer",
 						width: 16,
 						height: 9,
 					},
