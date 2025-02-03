@@ -344,44 +344,49 @@ const gallery = {
 	// Images from https://pexels.com
 	images: [
 		{
-			src: "/images/gallery/product-sdz-01.jpg",
-			alt: "image",
-			orientation: "vertical",
+			src: "/images/gallery/project-chiva-01.jpg",
+			alt: "Chi'Va EMDR Therapy Support",
+			orientation: "horizontal",
 		},
 		{
-			src: "/images/gallery/saas-mr-01.jpg",
-			alt: "image",
+			src: "/images/gallery/project-sdz-01.jpg",
+			alt: "San Diego Zoo Event Booking",
+			orientation: "horizontal",
+		},
+		{
+			src: "public/images/gallery/project-mr-05.jpg",
+			alt: "Market Reader FinTech",
 			orientation: "horizontal",
 		},
 		{
 			src: "/images/gallery/project-usd-01.jpg",
-			alt: "image",
-			orientation: "vertical",
+			alt: "VR for Unschool Discoveries Book Series",
+			orientation: "horizontal",
 		},
 		{
 			src: "/images/gallery/project-nyt-01.jpg",
-			alt: "image",
+			alt: "New York Times Digital Transformation",
 			orientation: "horizontal",
 		},
 		{
 			src: "/images/gallery/project-iso-01.jpg",
-			alt: "image",
+			alt: "Disney Inside Out Movie Promotions",
 			orientation: "horizontal",
 		},
 		{
 			src: "/images/gallery/project-iso-02.jpg",
-			alt: "image",
-			orientation: "vertical",
+			alt: "Disney Inside Out Interactive Platform",
+			orientation: "horizontal",
 		},
 		{
 			src: "/images/gallery/project-iso-03.jpg",
-			alt: "image",
+			alt: "Disney Inside Out Time Square Promotions",
 			orientation: "horizontal",
 		},
 		{
 			src: "/images/gallery/project-iso-04.jpg",
-			alt: "image",
-			orientation: "vertical",
+			alt: "Disney Inside Out Application Platform",
+			orientation: "horizontal",
 		},
 		{
 			src: "/images/gallery/project-sdz-02.jpg",
@@ -396,7 +401,7 @@ const gallery = {
 		{
 			src: "/images/gallery/project-sdz-04.jpg",
 			alt: "image",
-			orientation: "vertical",
+			orientation: "project",
 		},
 		{
 			src: "/images/gallery/project-sdz-05.jpg",
@@ -406,7 +411,7 @@ const gallery = {
 		{
 			src: "/images/gallery/project-sdz-06.jpg",
 			alt: "image",
-			orientation: "horizontal",
+			orientation: "project",
 		},
 		{
 			src: "/images/gallery/project-wire-01.jpg",

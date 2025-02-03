@@ -23,19 +23,24 @@ const createI18nContent = (t) => {
         // Links are automatically displayed.
         // Import new icons in /once-ui/icons.ts
         {
-            name: 'GitHub',
-            icon: 'github',
-            link: 'https://github.com/DTheArtist',
+            name: "GitHub",
+            icon: "github",
+            link: "https://github.com/DTheArtist",
         },
         {
-            name: 'LinkedIn',
-            icon: 'linkedin',
-            link: 'https://www.linkedin.com/in/daniioliver',
+            name: "LinkedIn",
+            icon: "linkedin",
+            link: "https://www.linkedin.com/in/daniioliver",
         },
         {
-            name: 'Email',
-            icon: 'email',
-            link: 'mailto:info@daniioliver.com',
+            name: "Company",
+            icon: "qiaCorp",
+            link: "https://www.quantuminnovationadvisors.com/",
+        },
+        {
+            name: "Email",
+            icon: "email",
+            link: "mailto:productdesign@daniioliver.com",
         },
     ]
 
