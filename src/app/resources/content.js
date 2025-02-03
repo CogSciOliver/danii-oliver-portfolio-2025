@@ -354,7 +354,7 @@ const gallery = {
 			orientation: "horizontal",
 		},
 		{
-			src: "public/images/gallery/project-mr-05.jpg",
+			src: "/images/gallery/project-mr-05.jpg",
 			alt: "Market Reader FinTech",
 			orientation: "horizontal",
 		},
@@ -374,6 +374,11 @@ const gallery = {
 			orientation: "horizontal",
 		},
 		{
+			src: "/images/gallery/project-mr-01.jpg",
+			alt: "Market Reader FinTech",
+			orientation: "horizontal",
+		},
+		{
 			src: "/images/gallery/project-iso-02.jpg",
 			alt: "Disney Inside Out Interactive Platform",
 			orientation: "horizontal",
@@ -386,6 +391,11 @@ const gallery = {
 		{
 			src: "/images/gallery/project-iso-04.jpg",
 			alt: "Disney Inside Out Application Platform",
+			orientation: "horizontal",
+		},
+		{
+			src: "/images/gallery/project-mr-03.jpg",
+			alt: "Market Reader FinTech",
 			orientation: "horizontal",
 		},
 		{
@@ -409,6 +419,11 @@ const gallery = {
 			orientation: "horizontal",
 		},
 		{
+			src: "/images/gallery/project-mr-02.jpg",
+			alt: "Market Reader FinTech",
+			orientation: "horizontal",
+		},
+		{
 			src: "/images/gallery/project-sdz-06.jpg",
 			alt: "image",
 			orientation: "project",
@@ -416,6 +431,11 @@ const gallery = {
 		{
 			src: "/images/gallery/project-wire-01.jpg",
 			alt: "image",
+			orientation: "horizontal",
+		},
+		{
+			src: "/images/gallery/project-mr-10.jpg",
+			alt: "Market Reader FinTech Saas",
 			orientation: "horizontal",
 		},
 	],
