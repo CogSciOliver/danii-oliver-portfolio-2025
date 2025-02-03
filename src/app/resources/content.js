@@ -53,7 +53,12 @@ const home = {
 	label: "Home",
 	title: `${person.name}'s Portfolio`,
 	description: `Portfolio website showcasing my work as a ${person.role}`,
-	headline: <>Strategic Tech Leadership for Startups & Scaling Businesses.</>,
+	headline: (
+		<>
+			Full Stack Product Engineering Strategy & Leadership for Tech
+			Startups & Scaling Businesses.
+		</>
+	),
 	subline: (
 		<>
 			I help startup founders and CEOs bridge the gap between vision and
@@ -110,12 +115,12 @@ const about = {
 	},
 	work: {
 		display: true, // set to false to hide this section
-		title: "Work Experience",
+		title: "Product Engineering & Consulting",
 		experiences: [
 			{
 				company: "Chi'Va EMDR",
-				timeframe: "2024 - Present",
-				role: "Technical Founder, CTO, CPO",
+				timeframe: "2023 - Present",
+				role: "AI & Cloud SaaS + PaaS Product Engineer",
 				achievements: [
 					<>
 						Developed behavioral health services platform with
@@ -155,7 +160,7 @@ const about = {
 			{
 				company: "Market Reader",
 				timeframe: "2022 - 2023",
-				role: "CPO/Head UX Engineer",
+				role: "UX & Product Engineer",
 				achievements: [
 					<>
 						Developed a SaaS system that unified the brand across
@@ -185,7 +190,7 @@ const about = {
 			{
 				company: "Damn Digital Studio",
 				timeframe: "2014 - 2021",
-				role: "UX Engineer",
+				role: "Full Stack Engineer, Brand & Product Designer",
 				achievements: [
 					<>
 						Developed consumer goods solutions that unified client
@@ -264,11 +269,11 @@ const about = {
 		title: "Technical skills",
 		skills: [
 			{
-				title: "Full Stack Node & Python",
+				title: "Full Stack Engineering, Cloud, React, Next, Node & Python",
 				description: (
 					<>
 						Building next gen apps with AWS + AI + Hugging Face +
-						Next.js + Supabase.
+						OpenAI Next.js + Supabase + Postgres.
 					</>
 				),
 				// optional: leave the array empty if you don't want to display images
