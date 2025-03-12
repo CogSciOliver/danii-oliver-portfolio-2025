@@ -1,0 +1,107 @@
+---
+title: "Chi'Va Guided Sessions - User Registration & Subscription Flow"
+publishedAt: "2025-03-12"
+image: "/images/gallery/project-usd-01.jpg"
+summary: "Enhancing Chi'Va's User Authentication & Subscription Management."
+tag: "Case Study, Security, Registration, Frictionless"
+---
+# **UX Case Study: Optimizing Chi'Va's Registration Flow & Data Security**
+
+## **Overview**
+Chi'Va offers an intuitive registration and subscription process designed to guide users through two distinct sign-up journeys. However, **usability and security challenges** arose in handling **database type selection**, **user session persistence**, and **seamless redirection to Stripe Checkout**. Our objective was to **streamline user onboarding** while **enhancing data security** by preventing sensitive user information from being exposed in URLs.
+
+---
+
+## ** Problem Statement**
+Chi'Va's registration flow had **two pathways**, but both contained usability and security issues:
+
+### **1. selectReg Flow (Plan First &rarr; Register  &rarr; Checkout)**
+**Expected Flow:**
+1. User **selects a plan** on the pricing page.
+2. User **is redirected to the register page** (`/register?price=planId`).
+3. After registration, the user **is redirected to Stripe Checkout**.
+4. After payment, the user **completes checkout and is redirected to the dashboard**.
+
+**Issue:**
+- User **was not always redirected to Stripe Checkout** after registration.
+- The `registrationFlow` logic was inconsistent, causing unexpected loops.
+
+---
+
+### **2. regSelect Flow (Register First -> Plan -> Checkout)**
+**Expected Flow:**
+1. User **clicks "Sign Up"** on the login screen.
+2. User **is redirected to the register page** (`/register`).
+3. After registration, the user **is redirected to pricing** to select a plan.
+4. User selects a plan and **is redirected to Stripe Checkout**.
+5. After payment, the user **is redirected to the dashboard**.
+
+**Issue:**
+- After selecting a plan, the user was **redirected back to the register page instead of Stripe Checkout**.
+- `registrationFlow` state was **not properly persisted**, causing **loops in navigation**.
+
+---
+
+## ** Solution 1: Streamlining the Registration Flow**
+We refactored **how the app manages `registrationFlow`**, ensuring smooth redirection logic across both journeys.
+
+### ** Fixes Implemented**
+1. **Tracked `registrationFlow` in session (React Context) instead of relying on URL query params**.
+2. **Ensured `setUser()` stores the correct `registrationFlow` during registration**.
+3. **Updated the pricing page to recognize `registrationFlow` from session storage**.
+4. **Properly redirected users to `/api/checkout?price=planId` instead of `/register`**.
+
+**Now, both flows work seamlessly:**
+| Flow | Step | Fixed Behavior |
+|------|------|------------------|
+| **selectReg** | User selects a plan | Redirects to `/register?price=planId` |
+|  | User registers | Redirects to Stripe Checkout (`/api/checkout`) |
+| **regSelect** | User registers first | Redirects to `/pricing` to select a plan |
+|  | User selects a plan | Redirects to `/api/checkout?price=planId` |
+|  | After successful checkout | Redirects to the **user's dashboard** |
+
+---
+
+## ** Solution 2: Enhancing Data Security**
+Before our improvements, user **emails and sensitive session data were passed in URLs**, making them **vulnerable to exposure**.
+
+### ** Security Issues Before Fixes**
+- ❌ **`email` and `registrationFlow` were exposed in query params (`/pricing?email=user@example.com`).**
+- ❌ **Plan selection passed `email` in URLs (`/api/checkout?price=planId&email=user@example.com`).**
+- ❌ **User authentication details were not properly isolated between client-side and server-side logic.**
+
+### ** Security Fixes Implemented**
+1. **Stored user session details (`email`, `registrationFlow`) in React Context (`useUser()`).**
+2. **Removed email from URL parameters, replacing it with session-based retrieval.**
+3. **Ensured all sensitive data was only retrieved on the server via API calls (`getUserInfo()`).**
+4. **Updated `getUser()` to fetch only necessary fields (e.g., `subscriptionStatus`), avoiding exposure of passwords or private IDs.**
+
+---
+
+## ** Final Outcome**
+| Improvement |  Benefit |
+|------------|------------|
+| **Registration flow fixes** | Users are correctly redirected to Stripe Checkout without looping back to register. |
+| **Secure session handling** | `useUser()` stores user session securely instead of relying on URL params. |
+| **No exposed email in URLs** | Prevents leaking personal user data in browser history or logs. |
+| **Database queries optimized** | Fetching only necessary fields improves security & performance. |
+
+---
+
+## **🎯 Key Takeaways**
+1. **Always use session storage (React Context) for user details instead of URL query params.**
+2. **Ensure registration flow logic is properly managed to avoid unnecessary redirects.**
+3. **Use `getUser()` in a secure server action (`getUserInfo()`) instead of exposing email in the frontend.**
+4. **Redirect users efficiently by maintaining `registrationFlow` state properly.**
+
+**With these fixes, Chi'Va now has a secure, user-friendly onboarding experience.**  
+ **New users can register, subscribe, and access their dashboard without errors or security risks.**   
+
+---
+
+### **Next Steps**
+- Implement **user authentication tokens** for session persistence.
+- Store additional security logs for **user session validation**.
+- Optimize **checkout session recovery** in case of payment failures.
+
+**Chi'Va's registration and payment experience is now both frictionless and secure.** 
