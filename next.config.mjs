@@ -1,14 +1,14 @@
 import mdx from "@next/mdx";
-import remarkGfm from "remarkGfm";
+import remarkGfm from 'remark-gfm'; 
 import createNextIntlPlugin from "next-intl/plugin";
 
 const withMDX = mdx({
 	extension: /\.mdx?$/,
 	options: {
 		remarkPlugins: [remarkGfm],
-		rehypePlugins: [],
 	},
 });
+
 
 const withNextIntl = createNextIntlPlugin();
 
@@ -17,4 +17,9 @@ const nextConfig = {
 	pageExtensions: ["ts", "tsx", "md", "mdx"],
 };
 
-export default withNextIntl(withMDX(nextConfig));
+//export default withNextIntl(withMDX(nextConfig));
+export default withNextIntl(
+  withMDX({
+    pageExtensions: ['ts', 'tsx', 'md', 'mdx'],
+  })
+);
