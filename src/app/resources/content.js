@@ -17,9 +17,9 @@ const newsletter = {
 	title: <>Subscribe to {person.firstName}'s Newsletter</>,
 	description: (
 		<>
-			I occasionally write about my strategic development, AI technology, and share
-			thoughts on the intersection of business leadership, product and
-			engineering.
+			I occasionally write about my strategic development, AI technology,
+			and share thoughts on the intersection of business leadership,
+			product and engineering.
 		</>
 	),
 };
@@ -53,11 +53,7 @@ const home = {
 	label: "Home",
 	title: `${person.name}'s Portfolio`,
 	description: `Portfolio website showcasing my work as a ${person.role}`,
-	headline: (
-		<>
-			Technology Modernization for Scaling Businesses.
-		</>
-	),
+	headline: <>Technology Modernization for Scaling Businesses.</>,
 	subline: (
 		<>
 			I help startup founders and CEOs bridge the gap between vision and
@@ -241,6 +237,18 @@ const about = {
 		display: true, // set to false to hide this section
 		title: "Studies",
 		institutions: [
+			{
+				name: "Harvardx",
+				description: (
+					<>
+						Studying for: 
+						Professional Certificate in Leading in a Remote Environment 
+						Professional Certificate in Large Language Model Operations (LLMOps)
+						Professional Certificate in Cloud Solutions Architecture
+						Professional Certificate in Computer Science for Artificial Intelligence
+					</>
+				),
+			},
 			{
 				name: "AWS",
 				description: (
