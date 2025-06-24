@@ -91,21 +91,21 @@ This roadmap aligns with the market’s accelerating AI shift:
 ## Why Now
 
 -   New players like Mantle are combining AI and equity tooling from day one.
--   Current market players risk losing fresh blood: late-stage customers already sit on established platforms or in-house processes, but early-stage founders can adopt Pulley, Mantle, Ledgy, or free Carta Launch tiers instead—eroding the incumbents’ future revenue base if the onboarding experience and intelligent UX don’t match modern expectations.
+-   Current market players risk losing fresh blood: late-stage customers already sit on established platforms or in-house processes, but early-stage founders can adopt Pulley, Mantle, Ledgy, or free Carta Launch tiers instead, eroding the incumbents’ future revenue base if the onboarding experience and intelligent UX don’t match modern expectations.
 -   Clients now expect founder-friendly, compliance-safe, AI-supported workflows that evolve with them.
 
 ## Evidence Snapshot
 
 1.  **Founder migration pressure**
 
-    - Pulley markets itself as a simpler, faster cap-table tool for founders frustrated by Carta’s complexity, and its guide explicitly calls out “clunky” onboarding as a Carta weakness
-      (pulley.com).
+    -   Pulley markets itself as a simpler, faster cap-table tool for founders frustrated by Carta’s complexity, and its guide explicitly calls out “clunky” onboarding as a Carta weakness
+        (pulley.com).
 
-    * Mantle positions as “AI-native from day one,” targeting green-field startups rather than converting big enterprise accounts (sciencedirect.com).
+    *   Mantle positions as “AI-native from day one,” targeting green-field startups rather than converting big enterprise accounts (sciencedirect.com).
 
 2.  **Switching-cost asymmetry**
 
-    - Empirical research shows perceived switching costs rise with organizational size and process entanglement, reducing late-stage churn but not early-stage defection risk (sciencedirect.com) (pubsonline.informs.org).
+    -   Empirical research shows perceived switching costs rise with organizational size and process entanglement, reducing late-stage churn but not early-stage defection risk (sciencedirect.com) (pubsonline.informs.org).
 
 3.  **Incumbent growth dependence on new cohorts** \* Fidelity acquired Shoobx to deepen its funnel of early and mid-stage private companies, explicitly citing “all growth stages from incorporation to IPO” as the target (techcrunch.com).
 
@@ -113,9 +113,9 @@ This roadmap aligns with the market’s accelerating AI shift:
 
 4.  **Product-led onboarding wars**
 
-    - Carta’s new free “Launch” tier tries to lock in founders at incorporation and upsell later financing events, underscoring how critical fresh users are to long-horizon ARR (carta.com).
+    -   Carta’s new free “Launch” tier tries to lock in founders at incorporation and upsell later financing events, underscoring how critical fresh users are to long-horizon ARR (carta.com).
 
-    - Fidelity Private Shares publishes case stories focused on Series A/B operators, again signalling an early-growth capture strategy (fidelityprivateshares.com)
+    -   Fidelity Private Shares publishes case stories focused on Series A/B operators, again signalling an early-growth capture strategy (fidelityprivateshares.com)
 
 ## Generational Vision
 
