@@ -1,6 +1,6 @@
 {
-	"name": "@once-ui-system/magic-portfolio",
-	"version": "0.2.0",
+	"name": "danii oliver portfolio",
+	"version": "25.6.24",
 	"scripts": {
 		"dev": "next dev",
 		"export": "next export",

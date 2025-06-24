@@ -1,16 +1,20 @@
-import mdx from '@next/mdx';
-import createNextIntlPlugin from 'next-intl/plugin';
+import mdx from "@next/mdx";
+import remarkGfm from "remarkGfm";
+import createNextIntlPlugin from "next-intl/plugin";
 
 const withMDX = mdx({
-    extension: /\.mdx?$/,
-    options: { },
+	extension: /\.mdx?$/,
+	options: {
+		remarkPlugins: [remarkGfm],
+		rehypePlugins: [],
+	},
 });
 
 const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    pageExtensions: ['ts', 'tsx', 'md', 'mdx'],
+	pageExtensions: ["ts", "tsx", "md", "mdx"],
 };
 
 export default withNextIntl(withMDX(nextConfig));
