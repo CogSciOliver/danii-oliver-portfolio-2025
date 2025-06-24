@@ -17,7 +17,7 @@ const newsletter = {
 	title: <>Subscribe to {person.firstName}'s Newsletter</>,
 	description: (
 		<>
-			I occasionally write about my hackathons, ai technology, and share
+			I occasionally write about my strategic development, AI technology, and share
 			thoughts on the intersection of business leadership, product and
 			engineering.
 		</>
@@ -245,7 +245,7 @@ const about = {
 				name: "AWS",
 				description: (
 					<>
-						Studing for AI / ML, Cloud Engineering & Solutions
+						Studying for AI / ML, Cloud Engineering & Solutions
 						Architect.
 					</>
 				),
