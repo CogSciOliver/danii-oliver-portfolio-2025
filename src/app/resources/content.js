@@ -6,7 +6,7 @@ const person = {
 	get name() {
 		return `${this.firstName} ${this.lastName}`;
 	},
-	role: "Strategic Tech & Product Partner for Startups",
+	role: "Strategic AI, Engineering & Product Partner for Growth & Modernization",
 	avatar: "/images/avatar.jpg",
 	location: "America/New_York", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
 	languages: ["English", "Python", "TypeScript", "JavaScript", "Baby ASL"], // optional: Leave the array empty if you don't want to display languages
@@ -55,8 +55,7 @@ const home = {
 	description: `Portfolio website showcasing my work as a ${person.role}`,
 	headline: (
 		<>
-			Full Stack Product Engineering Strategy & Leadership for Tech
-			Startups & Scaling Businesses.
+			Technology Modernization for Scaling Businesses.
 		</>
 	),
 	subline: (
