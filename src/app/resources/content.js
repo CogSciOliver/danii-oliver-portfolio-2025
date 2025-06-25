@@ -7,9 +7,9 @@ const person = {
 		return `${this.firstName} ${this.lastName}`;
 	},
 	role: "Strategic AI, Engineering & Product Partner for Growth & Modernization",
-	avatar: "/images/avatar.jpg",
-	location: "America/New_York", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-	languages: ["English", "Python", "TypeScript", "JavaScript", "Baby ASL"], // optional: Leave the array empty if you don't want to display languages
+	avatar: "/images/Danii-Oliver-AI-Consultant.png",
+	location: "America/New York/Texas", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+	languages: ["LLMOps", "AI", "Strategy", "Leadership", "Product Design"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -40,7 +40,7 @@ const social = [
 	{
 		name: "Company",
 		icon: "qiaCorp",
-		link: "https://www.quantuminnovationadvisors.com/",
+		link: "https://chivaapp.com",
 	},
 	{
 		name: "Email",
@@ -56,18 +56,8 @@ const home = {
 	headline: <>Technology Modernization for Scaling Businesses.</>,
 	subline: (
 		<>
-			I help startup founders and CEOs bridge the gap between vision and
-			execution. As a Founder, CTO, and CPO of Quantum Innovation
-			Advisors, I specialize in software engineering, product strategy,
-			and tech business growth—taking funded ideas from concept to MVP and
-			beyond.
-			<br />
-			<br /> With deep expertise in full-stack engineering and
-			user-centered design, I lead the development of scalable,
-			high-impact solutions that tackle modern challenges with innovation
-			and strategic vision. Whether refining an early-stage product or
-			optimizing an existing platform, I ensure technology aligns
-			seamlessly with business goals and market demands.
+			A systems thinker and transformation catalyst who applies strategy to complex design,
+			development, and cross-sector challenges using technology, AI and automation as the lever for change.
 		</>
 	),
 };
@@ -241,11 +231,12 @@ const about = {
 				name: "Harvardx",
 				description: (
 					<>
-						Studying for: 
-						Professional Certificate in Leading in a Remote Environment 
-						Professional Certificate in Large Language Model Operations (LLMOps)
-						Professional Certificate in Cloud Solutions Architecture
-						Professional Certificate in Computer Science for Artificial Intelligence
+						Studying for: Professional Certificate in Leading in a
+						Remote Environment Professional Certificate in Large
+						Language Model Operations (LLMOps) Professional
+						Certificate in Cloud Solutions Architecture Professional
+						Certificate in Computer Science for Artificial
+						Intelligence
 					</>
 				),
 			},
