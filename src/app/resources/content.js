@@ -194,7 +194,7 @@ const about = {
 			{
 				company: "Market Reader",
 				timeframe: "2022 - 2023",
-				role: "UX & Product Engineer",
+				role: "Product Officer",
 				achievements: [
 					<>
 						Led cross-functional team to deliver a $3.1M AI-powered
@@ -238,19 +238,89 @@ const about = {
 				],
 			},
 			{
-				company: "Damn Digital Studio",
-				timeframe: "2014 - 2021",
-				role: "Full Stack Engineer, Brand & Product Designer",
+				company: "House of Juice",
+				timeframe: "2014 - 2019",
+				role: "Founder, Experiential Systems Innovator & Product Strategist",
 				achievements: [
 					<>
-						Developed consumer goods solutions that unified client
-						brands across multiple platforms, improving marketing,
-						UX and CX.
+						Proved that product systems thinking applies beyond
+						screens—using live experiences to prototype concepts
+						like onboarding, retention, service customization, and
+						user feedback loops
 					</>,
 					<>
-						Led a cross-functional team to launch a several product
-						lines, contributing to a 45% increase in overall company
-						revenue.
+						Launched beverage manufacturing, retail bar and
+						enterprise wellness activation services during a period
+						of industry-wide stagnation, where digital product
+						innovation had plateaued due to templatization and
+						commoditized web experiences
+					</>,
+					<>
+						Engineered end-to-end customer engagement systems:
+						including logistics, staff orchestration, product
+						programming, and branded service flows. Mirroring
+						software development methodologies in a live event
+						environments
+					</>,
+					<>
+						Delivered real-world “interaction design” through
+						pop-ups and brand activations, designing service
+						architecture to match corporate brand strategy,
+						experience design, and operational scale
+					</>,
+					<>
+						Built and deployed modular event systems that prefigured
+						the orchestration logic now used in AI agents and
+						service automation
+					</>,
+					<>
+						While the tech industry flatlined into templates, I
+						built a brand that prototyped real-world interaction
+						design. Every activation was a live-service system,from
+						logistics to UX, years ahead of the AI orchestration
+						logic now reshaping technology and human access.
+					</>,
+				],
+			},
+			{
+				company: "Damn Digital Studio",
+				timeframe: "2010 - 2021",
+				role: "Founder, Strategic Technology Transformation Consultant",
+				achievements: [
+					<>
+						Advised creative agencies, publishers, and global brands
+						during a pivotal shift from print to digital, driving
+						modernization through interactive UX, cross-platform
+						delivery, and early mobile responsiveness
+					</>,
+					<>
+						Spearheaded digital transformation initiatives across
+						industries; transitioning clients from static brand
+						assets to scalable, content-rich platforms aligned with
+						emerging tech behaviors
+					</>,
+					<>
+						Delivered experience design systems and multi-device
+						activations before industry-wide standardization through
+						templatization flattened differentiation
+					</>,
+					<>
+						Built bespoke digital products that bridged branding,
+						storytelling, and front-end engineering at a time when
+						cloud infrastructure and automation were still emerging
+					</>,
+					<>
+						This era laid the foundation for my future work in AI
+						and cloud-native SaaS. Establishing a repeatable
+						playbook for modernizing legacy systems, activating new
+						user channels, and translating complexity into intuitive
+						digital systems
+					</>,
+					<>
+						Built a bridge between creative vision and technical
+						execution; positioning clients to scale during waves of
+						change across publishing, marketing, health, food and
+						beverage, finance, gaming and entertainment sectors
 					</>,
 				],
 				images: [
