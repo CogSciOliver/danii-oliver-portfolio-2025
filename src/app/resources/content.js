@@ -95,11 +95,13 @@ const about = {
 				<br />
 				<br />
 				I've built a career at the intersection of design, development,
-				and strategic transformation deliberately. It's what allows me
-				to lead strategy for AI transformation initiatives with insight
-				into how product, data, and customer experience work together.
-				I'm not just a specialist in one silo, I'm the bridge between
-				silos. That's exactly what this era demands.
+				and strategic transformation. It's what allows me to lead
+				strategy for AI transformation initiatives with insight into how
+				product, data, and customer experience work together. I'm not
+				just a specialist in one silo, I'm the bridge between silos.
+				<br />
+				<br />
+				<i>"Exactly what this era demands."</i>
 				<br />
 				<br />
 				AI Transformation Leader | Strategic Technologist | Full Stack
