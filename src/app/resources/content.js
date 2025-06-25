@@ -57,13 +57,13 @@ const home = {
 	subline: (
 		<>
 			{person.name} is a systems thinker and transformation catalyst who
-			applies strategy to complex design, development, and cross-sector
-			challenges using technology, AI and automation as the lever for
+			applies strategy to complex compliance, design, development, and cross-sector
+			product challenges using technology, AI and automation as the lever for
 			change.
 			<br />
 			<br />
 			What others call "all over the place" is actually a rare full-stack
-			executive profile.
+			polymath executive profile.
 		</>
 	),
 };
