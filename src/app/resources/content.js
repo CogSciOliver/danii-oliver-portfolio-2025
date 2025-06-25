@@ -6,7 +6,7 @@ const person = {
 	get name() {
 		return `${this.firstName} ${this.lastName}`;
 	},
-	role: "Strategic AI, Engineering & Product Partner for Growth & Modernization",
+	role: "Specializing in SaaS Infrastructure, AI Agent Systems & Scalable UX",
 	avatar: "/images/Danii-Oliver-AI-Consultant.png",
 	location: "America/New York/Texas", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
 	languages: ["LLMOps", "AI", "Strategy", "Leadership", "Product Design"], // optional: Leave the array empty if you don't want to display languages
@@ -90,6 +90,10 @@ const about = {
 		title: "Introduction",
 		description: (
 			<>
+				Your next Strategic AI, Engineering & Product Partner for Growth
+				& Modernization.
+				<br />
+				<br />
 				I've built a career at the intersection of design, development,
 				and strategic transformation deliberately. It's what allows me
 				to lead strategy for AI transformation initiatives with insight
@@ -115,17 +119,18 @@ const about = {
 			{
 				company: "Chi’Va – AI-Guided Mental Performance Platform",
 				timeframe: "2023 - Present",
-				role: "Founder, AI & Cloud SaaS + PaaS Product Engineer",
+				role: "Founder, Product Designer, AI & Cloud SaaS + PaaS Engineer",
 				achievements: [
 					<>
 						Chi'Va is a neuroscience-based SaaS platform that
 						delivers structured somatic and cognitive techniques for
-						emotional processing and mental performance enhancement for high-performers.
+						emotional processing and mental performance enhancement
+						for high-performers.
 					</>,
 					<>Scope of Work:</>,
 					<>
-						Launched the full SaaS infrastructure using React / Next.js, Node,
-						Git, Vercel, and serverless AWS
+						Launched the full SaaS infrastructure using React /
+						Next.js, Node, Git, Vercel, and serverless AWS
 					</>,
 					<>
 						Engineered AI-Agents utilizing Multi-Agent Pattern &
@@ -152,9 +157,9 @@ const about = {
 						practice.
 					</>,
 					<>
-						*Impact:* The Chi'Va platform's first cohort has resulted in an
-						80% increase in user engagement and 90% reduced service
-						costs.
+						Impact: Chi'Va's first platform cohort has resulted in
+						an 80% increase in industry baseline user engagement and
+						90% reduction in service delivery costs.
 					</>,
 				],
 				images: [
