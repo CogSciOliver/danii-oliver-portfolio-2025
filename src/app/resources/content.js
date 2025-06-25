@@ -122,23 +122,27 @@ const about = {
 						delivers structured somatic and cognitive techniques for
 						emotional processing and performance improvement.
 					</>,
+					<>Scope of Work:</>,
 					<>
-						Scope of Work:
-						<br />
-						- Built the full SaaS infrastructure using Next.js,
-						Vercel, and serverless AWS
-						<br />
-						- Developed AI-Agents utilizing Multi-Agent Pattern &
+						Launched the full SaaS infrastructure using React / Next.js, Node,
+						Git, Vercel, and serverless AWS
+					</>,
+					<>
+						Developed AI-Agents utilizing Multi-Agent Pattern &
 						Planning Pattern (Orchestrator-Workers) for agentic
 						protocol-driven session flows based on neuroscience and
 						somatic models
-						<br />
-						- Developed UX for user consent, onboarding, and
+					</>,
+					<>
+						Developed UX for user consent, onboarding, and
 						emotionally paced progression
-						<br />
-						- Created tools to track SUDs, VoC, and belief metrics
+					</>,
+					<>
+						Created tools to track SUDs, VoC, and belief metrics
 						across sessions
-						<br />- Ensured every interaction follows neuroscience
+					</>,
+					<>
+						Ensured every interaction follows neuroscience
 						evidence-based protocols with no hallucination risk
 					</>,
 					<>
