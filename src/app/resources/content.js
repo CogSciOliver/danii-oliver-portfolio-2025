@@ -120,7 +120,7 @@ const about = {
 					<>
 						Chi'Va is a neuroscience-based SaaS platform that
 						delivers structured somatic and cognitive techniques for
-						emotional processing and performance improvement.
+						emotional processing and mental performance enhancement for high-performers.
 					</>,
 					<>Scope of Work:</>,
 					<>
@@ -128,7 +128,7 @@ const about = {
 						Git, Vercel, and serverless AWS
 					</>,
 					<>
-						Developed AI-Agents utilizing Multi-Agent Pattern &
+						Engineered AI-Agents utilizing Multi-Agent Pattern &
 						Planning Pattern (Orchestrator-Workers) for agentic
 						protocol-driven session flows based on neuroscience and
 						somatic models
@@ -152,7 +152,7 @@ const about = {
 						practice.
 					</>,
 					<>
-						The Chi'Va platform's first cohort has resulted in an
+						*Impact:* The Chi'Va platform's first cohort has resulted in an
 						80% increase in user engagement and 90% reduced service
 						costs.
 					</>,
