@@ -57,13 +57,15 @@ const home = {
 	subline: (
 		<>
 			{person.name} is a systems thinker and transformation catalyst who
-			applies strategy to complex compliance, design, development, and cross-sector
-			product challenges using technology, AI and automation as the lever for
-			change.
+			applies strategy to complex compliance, design, development, and
+			cross-sector product challenges using technology, AI and automation
+			as the lever for change.
 			<br />
 			<br />
 			What others call "all over the place" is actually a rare full-stack
-			polymath executive profile.
+			polymath executive profile. One that is strategic, scalable, and
+			reflects entrepreneurial innovation, product ownership, and brand
+			vision, all crucial for AI Transformation Leadership roles.
 		</>
 	),
 };
@@ -108,19 +110,24 @@ const about = {
 	},
 	work: {
 		display: true, // set to false to hide this section
-		title: "Product Engineering & Consulting",
+		title: "AI Product Transformation",
 		experiences: [
 			{
-				company: "Chi'Va EMDR",
+				company: "Chi’Va – AI-Guided Mental Performance Platform",
 				timeframe: "2023 - Present",
-				role: "AI & Cloud SaaS + PaaS Product Engineer",
+				role: "Founder, AI & Cloud SaaS + PaaS Product Engineer",
 				achievements: [
 					<>
-						Developed behavioral health services platform with
-						utilizing the integration of AI tools into session
-						workflows, enabling providers to recoup 40%-60% of lost
-						revenue and provide clients with an 80% more effective
-						session.
+						Chi’Va is a neuroscience-based SaaS platform that
+						delivers structured somatic and cognitive techniques for
+						emotional processing and performance
+						improvement.
+						
+						Developed behavioral health services
+						platform with utilizing the integration of AI tools into
+						session workflows, enabling providers to recoup 40%-60%
+						of lost revenue and provide clients with an 80% more
+						effective session.
 					</>,
 					<>
 						Engineered the AI/ML/UI/UX for the Chi'Va platform,
