@@ -53,7 +53,7 @@ const home = {
 	label: "Home",
 	title: `${person.name}'s Portfolio`,
 	description: `Portfolio website showcasing my work as a ${person.role}`,
-	headline: <>Technology Modernization for Scaling Businesses.</>,
+	headline: <>Technology Modernization for Growth Phase Products.</>,
 	subline: (
 		<>
 			{person.name} is a systems thinker and transformation catalyst who
@@ -89,18 +89,20 @@ const about = {
 		description: (
 			<>
 				I've built a career at the intersection of design, development,
-				and strategic transformation—deliberately. It’s what allows me
-				to lead AI transformation initiatives with insight into how
-				product, data, and customer experience work together. I’m not a
-				specialist in one silo—I’m the bridge between silos. That’s
-				exactly what this era demands.
+				and strategic transformation deliberately. It's what allows me
+				to lead strategy for AI transformation initiatives with insight
+				into how product, data, and customer experience work together.
+				I'm not just a specialist in one silo, I'm the bridge between
+				silos. That's exactly what this era demands.
 				<br />
 				<br />
-				Whether you’re launching an MVP, refining your product strategy,
-				or optimizing engineering execution, {person.name} provides the
-				strategic leadership and technical expertise needed to build
-				technology that is scalable, profitable, and gives you a
-				competitive edge.
+				AI Transformation Leader | Strategic Technologist | Full Stack
+				Product Exec
+				<br />I have been leading cross-functional teams through digital
+				reinvention by applying technology, human-centered design, and
+				agile engineering practices to drive meaningful business impact
+				in the age of AI/ML. From vision to execution, I help architect
+				systems and strategies that scale.
 			</>
 		),
 	},
