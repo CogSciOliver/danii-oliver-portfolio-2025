@@ -281,6 +281,20 @@ const about = {
 						logic now reshaping technology and human access.
 					</>,
 				],
+				images: [
+					{
+						src: "/images/gallery/project-mr-05.jpg",
+						alt: "Market Reader Project",
+						width: 16,
+						height: 9,
+					},
+					{
+						src: "/images/gallery/project-mr-07.jpg",
+						alt: "Market Reader Project",
+						width: 16,
+						height: 9,
+					},
+				],
 			},
 			{
 				company: "Damn Digital Studio",
