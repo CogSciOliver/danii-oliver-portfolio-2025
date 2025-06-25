@@ -56,8 +56,13 @@ const home = {
 	headline: <>Technology Modernization for Scaling Businesses.</>,
 	subline: (
 		<>
-			A systems thinker and transformation catalyst who applies strategy to complex design,
-			development, and cross-sector challenges using technology, AI and automation as the lever for change.
+			A systems thinker and transformation catalyst who applies strategy
+			to complex design, development, and cross-sector challenges using
+			technology, AI and automation as the lever for change.
+			<br />
+			What others call "all over the place" is actually a rare full-stack
+			executive profile.
+			![Capabilities](/images/danii-oliver-capabilities.jpg)
 		</>
 	),
 };
