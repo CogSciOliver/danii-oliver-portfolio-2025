@@ -283,8 +283,8 @@ const about = {
 				],
 				images: [
 					{
-						src: "/images/gallery/project-mr-05.jpg",
-						alt: "Market Reader Project",
+						src: "/videos/Juice Bar Gathering.mp4",
+						alt: "House of Juice Popup",
 						width: 16,
 						height: 9,
 					},
