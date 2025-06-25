@@ -118,26 +118,33 @@ const about = {
 				role: "Founder, AI & Cloud SaaS + PaaS Product Engineer",
 				achievements: [
 					<>
-						Chi’Va is a neuroscience-based SaaS platform that
+						Chi'Va is a neuroscience-based SaaS platform that
 						delivers structured somatic and cognitive techniques for
 						emotional processing and performance improvement.
 					</>,
 					<>
 						Scope of Work:
 						<br />
-						Built the full SaaS infrastructure using Next.js,
+						* Built the full SaaS infrastructure using Next.js,
 						Vercel, and serverless AWS Designed protocol-driven
 						session flows based on neuroscience and somatic models
+						<br />
 						Developed UX for user consent, onboarding, and
-						emotionally paced progression Created tools to track
+						emotionally paced progression 
+						- Created tools to track
 						SUDs, VoC, and belief metrics across sessions Ensured
 						every interaction follows evidence-based protocols with
 						zero hallucination risk
 					</>,
 					<>
-						Engineered the AI/ML/UI/UX for the Chi'Va platform,
-						resulting in a 20% increase in user engagement and 90%
-						reduced service costs.
+						Chi'Va applies AI with precision to support real
+						outcomes—measurable, repeatable, and grounded in
+						structured practice.
+					</>,
+					<>
+						The Chi'Va platform's first cohort has resulted in an
+						80% increase in user engagement and 90% reduced service
+						costs.
 					</>,
 				],
 				images: [
