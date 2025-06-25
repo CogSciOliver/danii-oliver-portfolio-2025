@@ -56,13 +56,14 @@ const home = {
 	headline: <>Technology Modernization for Scaling Businesses.</>,
 	subline: (
 		<>
-			A systems thinker and transformation catalyst who applies strategy
-			to complex design, development, and cross-sector challenges using
-			technology, AI and automation as the lever for change.
+			{person.name} is a systems thinker and transformation catalyst who
+			applies strategy to complex design, development, and cross-sector
+			challenges using technology, AI and automation as the lever for
+			change.
+			<br />
 			<br />
 			What others call "all over the place" is actually a rare full-stack
 			executive profile.
-			![Capabilities](/images/danii-oliver-capabilities.jpg)
 		</>
 	),
 };
@@ -87,12 +88,12 @@ const about = {
 		title: "Introduction",
 		description: (
 			<>
-				{person.name} helps startup founders and CEOs turn ideas into
-				scalable, high-impact tech solutions. Their expertise spans
-				digital interfaces, interactive experiences, SaaS, PaaS and the
-				intersection of business and technology&mdash;ensuring products
-				are not just built, but strategically designed for growth and
-				long term-term success.
+				I've built a career at the intersection of design, development,
+				and strategic transformation—deliberately. It’s what allows me
+				to lead AI transformation initiatives with insight into how
+				product, data, and customer experience work together. I’m not a
+				specialist in one silo—I’m the bridge between silos. That’s
+				exactly what this era demands.
 				<br />
 				<br />
 				Whether you’re launching an MVP, refining your product strategy,
