@@ -124,8 +124,9 @@ const about = {
 					<br /><br />
 						Scope of Work:
 						<br />
-						Built the full SaaS infrastructure using Next.js,
-						Vercel, and serverless AWS Designed protocol-driven
+						* Built the full SaaS infrastructure using Next.js,
+						Vercel, Git and serverless AWS 
+						* Designed protocol-driven
 						session flows based on neuroscience and somatic models
 						Developed UX for user consent, onboarding, and
 						emotionally paced progression Created tools to track
