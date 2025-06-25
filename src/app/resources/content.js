@@ -128,22 +128,24 @@ const about = {
 						- Built the full SaaS infrastructure using Next.js,
 						Vercel, and serverless AWS
 						<br />
-						- Designed protocol-driven session flows based on
-						neuroscience and somatic models
+						- Developed AI-Agents utilizing Multi-Agent Pattern &
+						Planning Pattern (Orchestrator-Workers) for agentic
+						protocol-driven session flows based on neuroscience and
+						somatic models
 						<br />
 						- Developed UX for user consent, onboarding, and
 						emotionally paced progression
 						<br />
 						- Created tools to track SUDs, VoC, and belief metrics
 						across sessions
-						<br />
-						- Ensured every interaction follows evidence-based
-						protocols with zero hallucination risk
+						<br />- Ensured every interaction follows neuroscience
+						evidence-based protocols with no hallucination risk
 					</>,
 					<>
 						Chi'Va applies AI with precision to support real
-						outcomes—measurable, repeatable, and grounded in
-						structured practice.
+						outcomes that are measurable, repeatable, and grounded
+						in a structured mental and emotional performance
+						practice.
 					</>,
 					<>
 						The Chi'Va platform's first cohort has resulted in an
