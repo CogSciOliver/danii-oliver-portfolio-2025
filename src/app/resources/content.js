@@ -98,15 +98,15 @@ const about = {
 				and strategic transformation. It's what allows me to lead
 				strategy for AI transformation initiatives with insight into how
 				product, data, and customer experience work together. I'm not
-				just a specialist in one silo, I'm the bridge between silos.
-				<br />
+				just a specialist in one silo, I bridge silos, turning
+				complexity into working systems.
 				<br />
 				<i>"Exactly what this era demands."</i>
 				<br />
+				I help companies modernize through applied AI, scalable
+				engineering, and UX systems built for real impact.
 				<br />
-				AI Transformation Leader | Strategic Technologist | Full Stack
-				Product Exec
-				<br />I have been leading cross-functional teams through digital
+				I have been leading cross-functional teams through digital
 				reinvention by applying technology, human-centered design, and
 				agile engineering practices to drive meaningful business impact
 				in the age of AI/ML. From vision to execution, I help architect
