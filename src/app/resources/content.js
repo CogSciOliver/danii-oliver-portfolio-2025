@@ -274,7 +274,7 @@ const about = {
 						service automation
 					</>,
 					<>
-						While the tech industry flatlined into templates, I
+						💡 While the tech industry flatlined into templates, I
 						built a brand that prototyped real-world interaction
 						design. Every activation was a live-service system,from
 						logistics to UX, years ahead of the AI orchestration
