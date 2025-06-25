@@ -125,16 +125,20 @@ const about = {
 					<>
 						Scope of Work:
 						<br />
-						* Built the full SaaS infrastructure using Next.js,
-						Vercel, and serverless AWS Designed protocol-driven
-						session flows based on neuroscience and somatic models
+						- Built the full SaaS infrastructure using Next.js,
+						Vercel, and serverless AWS
 						<br />
-						Developed UX for user consent, onboarding, and
-						emotionally paced progression 
-						- Created tools to track
-						SUDs, VoC, and belief metrics across sessions Ensured
-						every interaction follows evidence-based protocols with
-						zero hallucination risk
+						- Designed protocol-driven session flows based on
+						neuroscience and somatic models
+						<br />
+						- Developed UX for user consent, onboarding, and
+						emotionally paced progression
+						<br />
+						- Created tools to track SUDs, VoC, and belief metrics
+						across sessions
+						<br />
+						- Ensured every interaction follows evidence-based
+						protocols with zero hallucination risk
 					</>,
 					<>
 						Chi'Va applies AI with precision to support real
