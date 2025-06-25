@@ -105,8 +105,7 @@ const about = {
 				<br />
 				I help companies modernize through applied AI, scalable
 				engineering, and UX systems built for real impact.
-				<br />
-				I have been leading cross-functional teams through digital
+				<br />I have been leading cross-functional teams through digital
 				reinvention by applying technology, human-centered design, and
 				agile engineering practices to drive meaningful business impact
 				in the age of AI/ML. From vision to execution, I help architect
@@ -198,13 +197,29 @@ const about = {
 				role: "UX & Product Engineer",
 				achievements: [
 					<>
-						Developed a SaaS system that unified the brand across
-						multiple platforms, improving design consistency by 40%.
+						Led cross-functional team to deliver a $3.1M AI-powered
+						FinTech SaaS MVP, integrating LLM-driven market
+						explanation tools. Launched to market with national
+						recognition from Nasdaq and Bloomberg.
 					</>,
 					<>
-						Led a cross-functional team to launch a new FinTech
-						product, contributing to a 15% increase in overall
-						company revenue.
+						Applied fine-tuned prompts, domain-specific embeddings,
+						and early-stage RAG techniques to align with
+						investor-grade insight delivery.
+					</>,
+					<>
+						Integrated agent workflows for stock movement analysis,
+						NLP summarization of financial data, and predictive
+						visualization dashboards.
+					</>,
+
+					<>
+						Developed a modular SaaS system that unified brand and
+						UX across platforms, improving design consistency.
+					</>,
+					<>
+						Spearheaded go-to-market delivery leading end-to-end
+						product execution using Agile engineering protocols.
 					</>,
 				],
 				images: [
