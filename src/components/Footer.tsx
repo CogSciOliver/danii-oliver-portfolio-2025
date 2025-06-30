@@ -39,13 +39,13 @@ export const Footer = () => {
 						/ Learn more about{" "}
 						<SmartLink
 							style={{ marginLeft: "-0.125rem" }}
-							href="https://quantuminnovationadvisors.com"
+							href="https://chivaapp.com"
 						>
-							Quantum Innovation Advisors'
+							Chi'Va Mental Performance
 						</SmartLink>
-						Technical Product Services.
+						Product Services.
 					</Text>
-					<Text paddingX="4">/ Built with Once UI</Text>
+					<Text paddingX="4"></Text>
 				</Text>
 				<Flex gap="16">
 					{social.map(
