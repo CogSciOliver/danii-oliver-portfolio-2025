@@ -39,7 +39,7 @@ const social = [
 	},
 	{
 		name: "Company",
-		icon: "qiaCorp",
+		icon: "flame",
 		link: "https://chivaapp.com",
 	},
 	{

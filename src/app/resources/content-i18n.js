@@ -34,8 +34,8 @@ const createI18nContent = (t) => {
         },
         {
             name: "Company",
-            icon: "qiaCorp",
-            link: "https://www.quantuminnovationadvisors.com/",
+            icon: "flame",
+            link: "https://www.chivaapp.com/",
         },
         {
             name: "Email",
