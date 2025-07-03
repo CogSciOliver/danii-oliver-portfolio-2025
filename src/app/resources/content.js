@@ -97,11 +97,12 @@ const about = {
 				I've built a career at the intersection of design, development,
 				and strategic transformation. It's what allows me to lead
 				strategy for AI transformation initiatives with insight into how
-				product, data, and customer experience work together. I'm not
-				just a specialist in one silo, I bridge silos, turning
-				complexity into working systems.
+				product, data, and customer experience work together.
 				<br />
-				<i>"Exactly what this era demands."</i>
+				<i>
+					"I bridge silos, turning complexity into working systems.
+					Exactly what this era demands."
+				</i>
 				<br />I work with stakeholders to engineer platforms that solve
 				real problems,so people can get back to what matters. Whether
 				it's scaling AI-enabled B2B systems or aligning cross-functional
