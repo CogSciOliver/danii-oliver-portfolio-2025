@@ -106,10 +106,10 @@ const about = {
 				I help companies modernize through applied AI, scalable
 				engineering, and UX systems built for real impact.
 				<br />I have been leading cross-functional teams through digital
-				reinvention by applying technology, human-centered design, and
-				agile engineering practices to drive meaningful business impact
-				in the age of AI/ML. From vision to execution, I help architect
-				systems and strategies that scale.
+				transformation by applying technology, human-centered design,
+				and Agile engineering practices to drive meaningful business
+				impact through B2B products. I engineer systems and
+				strategies that scale and mature.
 			</>
 		),
 	},
