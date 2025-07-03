@@ -117,7 +117,7 @@ const about = {
 			{
 				company: "Chi’Va – AI-Guided Mental Performance Platform",
 				timeframe: "2023 - Present",
-				role: "Founder, Product Designer, AI & Cloud SaaS + PaaS Engineer",
+				role: "CAIO",
 				achievements: [
 					<>
 						Chi'Va is a neuroscience-based SaaS platform that
@@ -132,7 +132,7 @@ const about = {
 					</>,
 					<>
 						Engineered AI-Agents utilizing Multi-Agent Pattern &
-						Planning Pattern (Orchestrator-Workers) for agentic
+						Planning Pattern for agentic
 						protocol-driven session flows based on neuroscience and
 						somatic models
 					</>,
@@ -191,7 +191,7 @@ const about = {
 			{
 				company: "Market Reader",
 				timeframe: "2022 - 2023",
-				role: "Product Officer",
+				role: "CPO",
 				achievements: [
 					<>
 						Led cross-functional team to deliver a $3.1M AI-powered
@@ -237,7 +237,7 @@ const about = {
 			{
 				company: "House of Juice",
 				timeframe: "2014 - 2019",
-				role: "Founder, Experiential Systems Innovator & Product Strategist",
+				role: "CEO",
 				achievements: [
 					<>
 						Proved that product systems thinking applies beyond
@@ -294,9 +294,9 @@ const about = {
 				],
 			},
 			{
-				company: "Damn Digital Studio",
+				company: "Quantum Innovation Advisors",
 				timeframe: "2010 - 2021",
-				role: "Founder, Strategic Technology Transformation Consultant",
+				role: "CEO",
 				achievements: [
 					<>
 						Advised creative agencies, publishers, and global brands
