@@ -102,14 +102,10 @@ const about = {
 				complexity into working systems.
 				<br />
 				<i>"Exactly what this era demands."</i>
-				<br />
-				I work with stakeholders to modernize products through applied
-				AI, scalable engineering, and UX systems built for real impact.
-				<br />I have been leading cross-functional teams through digital
-				transformation by applying technology, human-centered design,
-				and Agile engineering practices to drive meaningful business
-				impact through B2B products. I engineer systems and strategies
-				that scale and mature.
+				<br />I work with stakeholders to engineer platforms that solve
+				real problems,so people can get back to what matters. Whether
+				it's scaling AI-enabled B2B systems or aligning cross-functional
+				teams, my focus is on clarity, resilience, and impact.
 			</>
 		),
 	},
