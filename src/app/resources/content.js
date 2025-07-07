@@ -417,10 +417,23 @@ const about = {
 				images: [],
 			},
 		],
-		title: "Strategic Technical Fluency",
+		title: "Operational Capabilities",
 		skills: [
 			{
 				title: "Full Stack Engineering, Cloud, React, Next, Node & Python",
+				description: (
+					<>
+						Building next gen apps with AWS, Python, AI, Hugging
+						Face, OpenAI, Next JS, Supabase, Postgres.
+					</>
+				),
+				images: [],
+			},
+		],
+		title: "Cross-Functional Execution",
+		skills: [
+			{
+				title: "The bridge between tech, design, product, and business",
 				description: (
 					<>
 						Building next gen apps with AWS, Python, AI, Hugging
