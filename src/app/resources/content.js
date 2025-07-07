@@ -132,9 +132,8 @@ const about = {
 					</>,
 					<>
 						Engineered AI-Agents utilizing Multi-Agent Pattern &
-						Planning Pattern for agentic
-						protocol-driven session flows based on neuroscience and
-						somatic models
+						Planning Pattern for agentic protocol-driven session
+						flows based on neuroscience and somatic models
 					</>,
 					<>
 						Developed UX for user consent, onboarding, and
@@ -286,7 +285,7 @@ const about = {
 						height: 9,
 					},
 					{
-						src: "/images/gallery/project-mr-07.jpg",
+						src: "/videos/hoj-zip-recruiter.gif",
 						alt: "Market Reader Project",
 						width: 16,
 						height: 9,
