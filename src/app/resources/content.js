@@ -6,22 +6,16 @@ const person = {
 	get name() {
 		return `${this.firstName} ${this.lastName}`;
 	},
-	role: "Specializing in SaaS Infrastructure, AI Agent Systems & Scalable UX",
+	role: "Specializing in Engineering Strategy",
 	avatar: "/images/Danii-Oliver-AI-Consultant.png",
 	location: "America/New York/Texas", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
 	languages: ["LLMOps", "AI", "Strategy", "Leadership", "Product Design"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
-	display: true,
+	display: false,
 	title: <>Subscribe to {person.firstName}'s Newsletter</>,
-	description: (
-		<>
-			I occasionally write about my strategic development, AI technology,
-			and share thoughts on the intersection of business leadership,
-			product and engineering.
-		</>
-	),
+	description: <></>,
 };
 
 const social = [
@@ -53,19 +47,20 @@ const home = {
 	label: "Home",
 	title: `${person.name}'s Portfolio`,
 	description: `Portfolio website showcasing my work as a ${person.role}`,
-	headline: <>Technology Modernization for Growth Phase Products.</>,
+	headline: <>Engineering For Enterprise Scaling</>,
 	subline: (
 		<>
-			{person.name} is a systems thinker and transformation catalyst who
-			applies strategy to complex compliance, design, development, and
-			cross-sector product challenges using technology, AI and automation
-			as the lever for change.
+			{person.name} has the technical fluency to make strategic decisions,
+			hire the right people, and translate between business and
+			engineering.
 			<br />
 			<br />
-			What others call "all over the place" is actually a rare full-stack
-			polymath executive profile. One that is strategic, scalable, and
-			reflects entrepreneurial innovation, product ownership, and brand
-			vision, all crucial for AI Transformation Leadership roles.
+			As a engineering strategist and adaptive challenge leader,{" "}
+			{person.name}
+			is a transformation catalyst who builds systems for engineering,
+			complex compliance, product design, and cross-sector product
+			challenges using Agile methodology, technology, AI and automation
+			patterns as levers for change.
 		</>
 	),
 };
@@ -117,7 +112,7 @@ const about = {
 			{
 				company: "Chi’Va – AI-Guided Mental Performance Platform",
 				timeframe: "2023 - Present",
-				role: "CAIO",
+				role: "CAIO, Engineering Strategy",
 				achievements: [
 					<>
 						Chi'Va is a neuroscience-based SaaS platform that
@@ -190,7 +185,7 @@ const about = {
 			{
 				company: "Market Reader",
 				timeframe: "2022 - 2023",
-				role: "CPO",
+				role: "CPO, Product Engineering",
 				achievements: [
 					<>
 						Led cross-functional team to deliver a $3.1M AI-powered
@@ -236,7 +231,7 @@ const about = {
 			{
 				company: "House of Juice",
 				timeframe: "2014 - 2019",
-				role: "CEO",
+				role: "CEO, Product Leadership",
 				achievements: [
 					<>
 						Proved that product systems thinking applies beyond
@@ -295,7 +290,7 @@ const about = {
 			{
 				company: "Quantum Innovation Advisors",
 				timeframe: "2010 - 2021",
-				role: "CEO",
+				role: "CTO, Engineering Leadership",
 				achievements: [
 					<>
 						Advised creative agencies, publishers, and global brands
@@ -415,8 +410,8 @@ const about = {
 				title: "Full Stack Engineering, Cloud, React, Next, Node & Python",
 				description: (
 					<>
-						Building next gen apps with AWS + AI + Hugging Face +
-						OpenAI Next.js + Supabase + Postgres.
+						Building next gen apps with AWS, Python, AI, Hugging
+						Face, OpenAI, Next JS, Supabase, Postgres.
 					</>
 				),
 				// optional: leave the array empty if you don't want to display images
@@ -436,23 +431,14 @@ const about = {
 				],
 			},
 			{
-				title: "Figma",
-				description: <>Able to prototype in Figma, Adobe, Paper.</>,
-				// optional: leave the array empty if you don't want to display images
-				images: [
-					{
-						src: "/images/gallery/project-pes-04.jpg",
-						alt: "Project image",
-						width: 16,
-						height: 9,
-					},
-					{
-						src: "/images/gallery/product-sdz-04.jpg",
-						alt: "Project image",
-						width: 16,
-						height: 9,
-					},
-				],
+				title: "Full Stack Engineering, Cloud, React, Next, Node & Python",
+				description: (
+					<>
+						Building next gen apps with AWS, Python, AI, Hugging
+						Face, OpenAI, Next JS, Supabase, Postgres.
+					</>
+				),
+				images: [],
 			},
 		],
 	},
