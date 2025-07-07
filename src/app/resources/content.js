@@ -404,7 +404,7 @@ const about = {
 	},
 	technical: {
 		display: true, // set to false to hide this section
-		title: "Technical skills",
+		title: "Strategic Technical Fluency",
 		skills: [
 			{
 				title: "Full Stack Engineering, Cloud, React, Next, Node & Python",
@@ -414,22 +414,11 @@ const about = {
 						Face, OpenAI, Next JS, Supabase, Postgres.
 					</>
 				),
-				// optional: leave the array empty if you don't want to display images
-				images: [
-					{
-						src: "/images/gallery/project-ai-01.jpg",
-						alt: "Project image",
-						width: 16,
-						height: 9,
-					},
-					{
-						src: "/images/gallery/project-ai-02.jpg",
-						alt: "Project image",
-						width: 16,
-						height: 9,
-					},
-				],
+				images: [],
 			},
+		],
+		title: "Strategic Technical Fluency",
+		skills: [
 			{
 				title: "Full Stack Engineering, Cloud, React, Next, Node & Python",
 				description: (
