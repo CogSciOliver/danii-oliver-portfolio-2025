@@ -47,7 +47,7 @@ const home = {
 	label: "Home",
 	title: `${person.name}'s Portfolio`,
 	description: `Portfolio website showcasing my work as a ${person.role}`,
-	headline: <>Engineering For Enterprise Scaling</>,
+	headline: <>Engineering Strategy</>,
 	subline: (
 		<>
 			{person.name} has the technical fluency to make strategic decisions,
@@ -89,7 +89,7 @@ const about = {
 				& Modernization.
 				<br />
 				<br />
-				I've built a career at the intersection of design, development,
+				I've built a career at the intersection of engineering, product,
 				and strategic transformation. It's what allows me to lead
 				strategy for AI transformation initiatives with insight into how
 				product, data, and customer experience work together.
