@@ -252,7 +252,8 @@ const createI18nContent = (t) => {
         home,
         about,
         casestudies,
-        work
+        work,
+        gallery
     }
 };
 
