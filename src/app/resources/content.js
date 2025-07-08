@@ -572,4 +572,4 @@ const gallery = {
 	],
 };
 
-export { person, social, newsletter, home, about, casestudies, work, gallery };
+export { person, social, newsletter, home, about, casestudies, work };
