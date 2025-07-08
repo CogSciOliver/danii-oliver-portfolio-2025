@@ -47,7 +47,7 @@ const home = {
 	label: "Home",
 	title: `${person.name}'s Portfolio`,
 	description: `Portfolio website showcasing my work as a ${person.role}`,
-	headline: <>Engineering Strategy</>,
+	headline: <>Engineering & Product Leadership</>,
 	subline: (
 		<>
 			{person.name} is an engineering strategist and transformation
@@ -59,7 +59,14 @@ const home = {
 			capabilities, and aligning team structure, technology, and process
 			to business-critical milestones. Whether navigating compliance-heavy
 			environments or scaling platform infrastructure, Danii builds
-			systems —technical and human— that adapt, accelerate, and endure.
+			systems, technical and human, that adapt, accelerate, and endure.
+			<br />
+			<br />
+			These projects represent full lifecycle leadership, technical
+			architecture, agile execution, and product scaling across AI, SaaS,
+			and B2B & D2C platforms. I partner with engineering, design, and
+			business teams to deliver systems that scale and strategies that
+			stick.
 		</>
 	),
 };
