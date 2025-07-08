@@ -68,7 +68,7 @@ export const Header = () => {
     }
 
     const t = useTranslations();
-    const { person, home, about, casestudies, work } = renderContent(t);
+    const { person, home, about, casestudies, work, gallery } = renderContent(t);
 
     return (
         <>

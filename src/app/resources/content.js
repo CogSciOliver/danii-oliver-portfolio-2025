@@ -64,7 +64,7 @@ const home = {
 			<br />
 			These projects represent full lifecycle leadership, technical
 			architecture, agile execution, and product scaling across AI, SaaS,
-			and B2B & D2C platforms. I partner with engineering, design, and
+			and B2B & B2C platforms. I partner with engineering, design, and
 			business teams to deliver systems that scale and strategies that
 			stick.
 		</>
