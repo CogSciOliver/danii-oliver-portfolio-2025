@@ -50,17 +50,16 @@ const home = {
 	headline: <>Engineering Strategy</>,
 	subline: (
 		<>
-			{person.name} has the technical fluency to make strategic decisions,
-			hire the right people, and translate between business and
-			engineering.
-			<br />
-			<br />
-			As a engineering strategist and adaptive challenge leader,{" "}
-			{person.name}
-			is a transformation catalyst who builds systems for engineering,
-			complex compliance, product design, and cross-sector product
-			challenges using Agile methodology, technology, AI and automation
-			patterns as levers for change.
+			{person.name} is an engineering strategist and transformation
+			catalyst known for bridging business vision with technical
+			execution. With deep fluency across software architecture, AI, and
+			Agile systems, Danii leads engineering product teams to deliver
+			outcomes that propel business strategy. Their approach is grounded
+			in engineering strategy: defining a clear vision, assessing current
+			capabilities, and aligning team structure, technology, and process
+			to business-critical milestones. Whether navigating compliance-heavy
+			environments or scaling platform infrastructure, Danii builds
+			systems —technical and human— that adapt, accelerate, and endure.
 		</>
 	),
 };
