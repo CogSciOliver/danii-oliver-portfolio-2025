@@ -6,10 +6,10 @@ const person = {
 	get name() {
 		return `${this.firstName} ${this.lastName}`;
 	},
-	role: "Specializing in Engineering Strategy",
+	role: "Strategic Product Innovation & Scalable AI Agent Systems",
 	avatar: "/images/Danii-Oliver-AI-Consultant.png",
 	location: "America/New York/Texas", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-	languages: ["LLMOps", "AI", "Strategy", "Leadership", "Product Design"], // optional: Leave the array empty if you don't want to display languages
+	languages: ["LLMOps", "AI", "Strategy", "Leadership", "Product Innovation"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -45,28 +45,27 @@ const social = [
 
 const home = {
 	label: "Home",
-	title: `${person.name}'s Portfolio`,
-	description: `Portfolio website showcasing my work as a ${person.role}`,
-	headline: <>Engineering & Product Leadership</>,
+	title: `${person.name}'s Bio`,
+	description: `Demonstrating leadership in ${person.role} Leadership.`,
+	headline: <>Strategic Product Innovation & Scalable AI Agent Systems Architecture.</>,
 	subline: (
 		<>
-			{person.name} is an engineering strategist and transformation
+			{person.name} is a business innovation strategist and transformation
 			catalyst known for bridging business vision with technical
 			execution. With deep fluency across software architecture, AI, and
-			Agile systems, Danii leads engineering product teams to deliver
-			outcomes that propel business strategy. Their approach is grounded
-			in engineering strategy: defining a clear vision, assessing current
-			capabilities, and aligning team structure, technology, and process
-			to business-critical milestones. Whether navigating compliance-heavy
-			environments or scaling platform infrastructure, Danii builds
-			systems, technical and human, that adapt, accelerate, and endure.
+			Agile systems, Danii architects business strategy to deliver
+			outcomes that propel the mission & ambition. Their approach is
+			grounded in strategic frameworks: defining a clear vision, assessing
+			current capabilities, and aligning team structure, technology, and
+			process to business-critical metrics. Whether navigating
+			compliance-heavy environments or scaling platform infrastructure,
+			Danii innovates for systems, technical and human, that adapt,
+			accelerate, and endure.
 			<br />
 			<br />
-			These projects represent full lifecycle leadership, technical
-			architecture, agile execution, and product scaling across AI, SaaS,
-			and B2B & B2C platforms. I partner with engineering, design, and
-			business teams to deliver systems that scale and strategies that
-			stick.
+			{person.name}'s journey represent full lifecycle leadership,
+			technical architecture, agile execution, and product scaling across
+			AI, SaaS, and B2B & B2C platforms.
 		</>
 	),
 };
@@ -91,14 +90,11 @@ const about = {
 		title: "Introduction",
 		description: (
 			<>
-				Your next Strategic AI, Engineering & Product Partner for Growth
-				& Modernization.
-				<br />
-				<br />
-				I've built a career at the intersection of engineering, product,
-				and strategic transformation. It's what allows me to lead
-				strategy for AI transformation initiatives with insight into how
-				product, data, and customer experience work together.
+				I've built a career at the intersection of entrepreneurship,
+				engineering, product, and strategic innovation. It's what allows
+				me to lead strategy for AI transformation initiatives with
+				insight into how product, data, and customer experience work
+				together.
 				<br />
 				<i>
 					"I bridge silos, turning complexity into working systems.

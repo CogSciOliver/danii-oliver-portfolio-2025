@@ -1,16 +1,17 @@
-import { getPosts } from '@/app/utils/utils';
-import { Flex } from '@/once-ui/components';
-import { Projects } from '@/components/work/Projects';
-import { baseURL, renderContent } from '@/app/resources';
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { getPosts } from "@/app/utils/utils";
+import { Flex } from "@/once-ui/components";
+import { Projects } from "@/components/work/Projects";
+import { baseURL, renderContent } from "@/app/resources";
+import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
+import { useTranslations } from "next-intl";
 
-export async function generateMetadata(
-    {params: {locale}}: { params: { locale: string }}
-) {
-
-    const t = await getTranslations();
-    const { work } = renderContent(t);
+export async function generateMetadata({
+	params: { locale },
+}: {
+	params: { locale: string };
+}) {
+	const t = await getTranslations();
+	const { work } = renderContent(t);
 
 	const title = work.title;
 	const description = work.description;
@@ -22,7 +23,7 @@ export async function generateMetadata(
 		openGraph: {
 			title,
 			description,
-			type: 'website',
+			type: "website",
 			url: `https://${baseURL}/${locale}/work/`,
 			images: [
 				{
@@ -32,7 +33,7 @@ export async function generateMetadata(
 			],
 		},
 		twitter: {
-			card: 'summary_large_image',
+			card: "summary_large_image",
 			title,
 			description,
 			images: [ogImage],
@@ -40,45 +41,63 @@ export async function generateMetadata(
 	};
 }
 
-export default function Work(
-    { params: {locale}}: { params: { locale: string }}
-) {
-    unstable_setRequestLocale(locale);
-    let allProjects = getPosts(['src', 'app', '[locale]', 'work', 'projects', locale]);
+export default function Work({
+	params: { locale },
+}: {
+	params: { locale: string };
+}) {
+	unstable_setRequestLocale(locale);
+	let allProjects = getPosts([
+		"src",
+		"app",
+		"[locale]",
+		"work",
+		"projects",
+		locale,
+	]);
 
-    const t = useTranslations();
-    const { person, work } = renderContent(t);
+	const t = useTranslations();
+	const { person, work } = renderContent(t);
 
-    return (
-        <Flex
-			fillWidth maxWidth="m"
-			direction="column">
-            <script
-                type="application/ld+json"
-                suppressHydrationWarning
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        '@context': 'https://schema.org',
-                        '@type': 'CollectionPage',
-                        headline: work.title,
-                        description: work.description,
-                        url: `https://${baseURL}/projects`,
-                        image: `${baseURL}/og?title=Design%20Projects`,
-                        author: {
-                            '@type': 'Person',
-                            name: person.name,
-                        },
-                        hasPart: allProjects.map(project => ({
-                            '@type': 'CreativeWork',
-                            headline: project.metadata.title,
-                            description: project.metadata.summary,
-                            url: `https://${baseURL}/projects/${project.slug}`,
-                            image: `${baseURL}/${project.metadata.image}`,
-                        })),
-                    }),
-                }}
-            />
-            <Projects locale={locale}/>
-        </Flex>
-    );
+	return (
+		<Flex
+			fillWidth
+			maxWidth="m"
+			direction="column"
+		>
+			<script
+				type="application/ld+json"
+				suppressHydrationWarning
+				dangerouslySetInnerHTML={{
+					__html: JSON.stringify({
+						"@context": "https://schema.org",
+						"@type": "CollectionPage",
+						headline: work.title,
+						description: work.description,
+						url: `https://${baseURL}/projects`,
+						image: `${baseURL}/og?title=Design%20Projects`,
+						author: {
+							"@type": "Person",
+							name: person.name,
+						},
+						hasPart: allProjects.map((project) => ({
+							"@type": "CreativeWork",
+							headline: project.metadata.title,
+							description: project.metadata.summary,
+							url: `https://${baseURL}/projects/${project.slug}`,
+							image: `${baseURL}/${project.metadata.image}`,
+						})),
+					}),
+				}}
+			/>
+			<p>
+				Client portfolio includes enterprise brands such as Salesforce,
+				Buick, Clear Vision, American Heart Association, Sam Edelman,
+				Moroccan Oil, ZipRecruiter, NBCUniversal, Funtank, The New York
+				Times, Disney, Draft FCB, Vogal Forina, Dynamic Logic, Marcom
+				Group, Market Reader, Brewer's Association.
+			</p>
+			<Projects locale={locale} />
+		</Flex>
+	);
 }
