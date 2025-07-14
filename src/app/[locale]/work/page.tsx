@@ -90,13 +90,23 @@ export default function Work({
 					}),
 				}}
 			/>
-			<p>
-				Client portfolio includes enterprise brands such as Salesforce,
-				Buick, Clear Vision, American Heart Association, Sam Edelman,
-				Moroccan Oil, ZipRecruiter, NBCUniversal, Funtank, The New York
-				Times, Disney, Draft FCB, Vogal Forina, Dynamic Logic, Marcom
-				Group, Market Reader, Brewer's Association.
-			</p>
+			<Flex
+				fillWidth
+				gap="xl"
+				marginBottom="40"
+				paddingX="l"
+				direction="column"
+			>
+				<h3>Client portfolio includes enterprise brands such as:</h3>
+				<p>
+					Salesforce, Buick, Clear Vision, American Heart Association,
+					Sam Edelman, Moroccan Oil, ZipRecruiter, NBCUniversal,
+					Funtank, The New York Times, Disney, Draft FCB, Vogal
+					Forina, Dynamic Logic, Marcom Group, Market Reader, Brewer's
+					Association.
+				</p>
+			</Flex>
+
 			<Projects locale={locale} />
 		</Flex>
 	);
