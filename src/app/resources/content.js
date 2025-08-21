@@ -90,21 +90,19 @@ const about = {
 				worlds that rarely speak the same language. I thrive in
 				complexity, building systems where markets are emerging, silos
 				need breaking, and resilience is non-negotiable.
-				<br /><br />
-				I’ve bootstrapped my way here, funding ventures through my own
-				capital and proving their strength in real markets. Along the
-				way, I’ve scaled consumer brands to national recognition,
-				launched platforms recognized by Bloomberg and Nasdaq, and
-				incubated platforms that reshaped entire communities.
-				<br /><br />
-				Now I’m entering the next stage: engaging capital tools like
-				corporate venture capital, SAFEs and convertible notes, to
-				accelerate scale and impact.
-				<br /><br />
+				<br />
+				<br />
+				I’ve bootstrapped ventures with my own capital, proving their
+				strength in real markets while scaling consumer brands to
+				national recognition, launching platforms recognized by
+				Bloomberg and Nasdaq, and incubating platforms that reshaped
+				entire communities.
+				<br />
+				<br />
 				Now I’m entering the next stage: engaging capital tools like
 				corporate venture capital, SAFEs, and convertible notes to
 				accelerate scale and impact. I am a founder fluent across
-				industries, and that has been my grit, my resilience, and my
+				industries. That has been my grit, my resilience, and my
 				strategy: connecting departments, industries, and audiences to
 				capture emerging market opportunities and drive growth.
 				<br />
