@@ -113,7 +113,7 @@ const about = {
 	},
 	work: {
 		display: true, // set to false to hide this section
-		title: "AI & Product Ventures",
+		title: "AI Product Ventures",
 		experiences: [
 			{
 				company: "Chi’Va – AI-Guided Mental Performance Platform",
