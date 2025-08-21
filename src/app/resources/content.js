@@ -6,7 +6,7 @@ const person = {
 	get name() {
 		return `${this.firstName} ${this.lastName}`;
 	},
-	role: "Strategic Product Innovation Entrepreneur",
+	role: "Entrepreneur | Founder | Strategist | Innovation Executive",
 	avatar: "/images/Danii-Oliver-AI-Consultant.png",
 	location: "America/New York/Texas", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
 	languages: ["LLMOps", "AI", "Strategy", "Leadership", "Product Innovation"], // optional: Leave the array empty if you don't want to display languages
@@ -49,7 +49,7 @@ const home = {
 	description: `Demonstrating leadership in ${person.role} Leadership.`,
 	headline: (
 		<>
-			Strategic Product Innovation Entrepreneur
+			Entrepreneur | Founder | Strategist | Innovation Executive
 		</>
 	),
 	subline: (
