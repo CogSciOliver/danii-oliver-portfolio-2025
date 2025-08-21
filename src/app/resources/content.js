@@ -85,7 +85,7 @@ const about = {
 			<>
 				I build ventures at the intersection of entrepreneurship and
 				strategic innovation for product, engineering, and market
-				creation. From luxury client activations to financial SaaS
+				creation. From enterprise client activations to financial SaaS
 				platforms, manufacturing to AI, my work has always bridged
 				worlds that rarely speak the same language. I thrive in
 				complexity, building systems where markets are emerging, silos
