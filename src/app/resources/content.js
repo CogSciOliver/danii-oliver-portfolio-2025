@@ -90,17 +90,17 @@ const about = {
 				worlds that rarely speak the same language. I thrive in
 				complexity, building systems where markets are emerging, silos
 				need breaking, and resilience is non-negotiable.
-				<br />
+				<br /><br />
 				I’ve bootstrapped my way here, funding ventures through my own
 				capital and proving their strength in real markets. Along the
 				way, I’ve scaled consumer brands to national recognition,
 				launched platforms recognized by Bloomberg and Nasdaq, and
 				incubated platforms that reshaped entire communities.
-				<br />
+				<br /><br />
 				Now I’m entering the next stage: engaging capital tools like
 				corporate venture capital, SAFEs and convertible notes, to
 				accelerate scale and impact.
-				<br />
+				<br /><br />
 				Now I’m entering the next stage: engaging capital tools like
 				corporate venture capital, SAFEs, and convertible notes to
 				accelerate scale and impact. I am a founder fluent across
