@@ -47,29 +47,18 @@ const home = {
 	label: "Home",
 	title: `${person.name}'s Bio`,
 	description: `Demonstrating leadership in ${person.role} Leadership.`,
-	headline: (
-		<>
-			Entrepreneur | Founder | Strategist | Innovation Executive
-		</>
-	),
+	headline: <>Entrepreneur | Founder | Strategist | Innovation Executive</>,
 	subline: (
 		<>
-			{person.name} is a entrepreneur focused on business innovation,
-			strategy and market growth. A transformation catalyst known for
-			bridging business vision with technical execution. With deep fluency
-			across software architecture, AI, and Agile systems, Danii
-			architects business strategy to deliver outcomes that propel the
-			mission & ambition. Their approach is grounded in strategic
-			frameworks: defining a clear vision, assessing current capabilities,
-			and aligning team structure, technology, and process to
-			business-critical metrics. Whether navigating compliance-heavy
-			environments or scaling platform infrastructure, Danii innovates for
-			systems, technical and human, that adapt, accelerate, and endure.
-			<br />
-			<br />
-			{person.name}'s journey represent full lifecycle leadership,
-			technical architecture, agile execution, and product scaling across
-			AI, SaaS, and B2B & B2C platforms.
+			I am a founder and strategist building ventures at the intersection
+			of product, technology, and market creation. From luxury activations
+			to SaaS platforms, breweries to AI, I’ve proven ideas in real
+			markets by bootstrapping them to 45% YOY growth with national
+			recognition. My strength is being fluent across industries and
+			audiences, bridging departmental silos, breaking down complexity,
+			and turning it into working systems. Now I’m entering the next
+			stage: scaling impact with venture partnerships and capital
+			alignment.
 		</>
 	),
 };
@@ -94,20 +83,35 @@ const about = {
 		title: "Introduction",
 		description: (
 			<>
-				I've built a career at the intersection of entrepreneurship,
-				engineering, product, and strategic innovation. It's what allows
-				me to lead strategy for AI transformation initiatives with
-				insight into how product, data, and customer experience work
-				together.
+				I build ventures at the intersection of entrepreneurship and
+				strategic innovation for product, engineering, and market
+				creation. From luxury client activations to financial SaaS
+				platforms, manufacturing to AI, my work has always bridged
+				worlds that rarely speak the same language. I thrive in
+				complexity, building systems where markets are emerging, silos
+				need breaking, and resilience is non-negotiable.
+				<br />
+				I’ve bootstrapped my way here, funding ventures through my own
+				capital and proving their strength in real markets. Along the
+				way, I’ve scaled consumer brands to national recognition,
+				launched platforms recognized by Bloomberg and Nasdaq, and
+				incubated platforms that reshaped entire communities.
+				<br />
+				Now I’m entering the next stage: engaging capital tools like
+				corporate venture capital, SAFEs and convertible notes, to
+				accelerate scale and impact.
+				<br />
+				Now I’m entering the next stage: engaging capital tools like
+				corporate venture capital, SAFEs, and convertible notes to
+				accelerate scale and impact. I am a founder fluent across
+				industries, and that has been my grit, my resilience, and my
+				strategy: connecting departments, industries, and audiences to
+				capture emerging market opportunities and drive growth.
 				<br />
 				<i>
-					"I bridge silos, turning complexity into working systems.
-					Exactly what this era demands."
+					I align stakeholders around clarity and execution, turning
+					complexity into systems that work.
 				</i>
-				<br />I work with stakeholders to engineer platforms that solve
-				real problems,so people can get back to what matters. Whether
-				it's scaling AI-enabled B2B systems or aligning cross-functional
-				teams, my focus is on clarity, resilience, and impact.
 			</>
 		),
 	},
