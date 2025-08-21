@@ -6,7 +6,7 @@ const person = {
 	get name() {
 		return `${this.firstName} ${this.lastName}`;
 	},
-	role: "Strategic Product Innovation & Scalable AI Agent Systems",
+	role: "Strategic Product Innovation Entrepreneur",
 	avatar: "/images/Danii-Oliver-AI-Consultant.png",
 	location: "America/New York/Texas", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
 	languages: ["LLMOps", "AI", "Strategy", "Leadership", "Product Innovation"], // optional: Leave the array empty if you don't want to display languages
@@ -47,20 +47,24 @@ const home = {
 	label: "Home",
 	title: `${person.name}'s Bio`,
 	description: `Demonstrating leadership in ${person.role} Leadership.`,
-	headline: <>Strategic Product Innovation & Scalable AI Agent Systems Architecture.</>,
+	headline: (
+		<>
+			Strategic Product Innovation Entrepreneur
+		</>
+	),
 	subline: (
 		<>
-			{person.name} is a business innovation strategist and transformation
-			catalyst known for bridging business vision with technical
-			execution. With deep fluency across software architecture, AI, and
-			Agile systems, Danii architects business strategy to deliver
-			outcomes that propel the mission & ambition. Their approach is
-			grounded in strategic frameworks: defining a clear vision, assessing
-			current capabilities, and aligning team structure, technology, and
-			process to business-critical metrics. Whether navigating
-			compliance-heavy environments or scaling platform infrastructure,
-			Danii innovates for systems, technical and human, that adapt,
-			accelerate, and endure.
+			{person.name} is a entrepreneur focused on business innovation,
+			strategy and market growth. A transformation catalyst known for
+			bridging business vision with technical execution. With deep fluency
+			across software architecture, AI, and Agile systems, Danii
+			architects business strategy to deliver outcomes that propel the
+			mission & ambition. Their approach is grounded in strategic
+			frameworks: defining a clear vision, assessing current capabilities,
+			and aligning team structure, technology, and process to
+			business-critical metrics. Whether navigating compliance-heavy
+			environments or scaling platform infrastructure, Danii innovates for
+			systems, technical and human, that adapt, accelerate, and endure.
 			<br />
 			<br />
 			{person.name}'s journey represent full lifecycle leadership,
