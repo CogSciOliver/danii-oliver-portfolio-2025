@@ -65,6 +65,11 @@
         "title": "Menulis tentang desain dan teknologi...",
         "description": "Baca apa yang {name} lakukan baru-baru ini"
     },
+     "ventures": {
+        "label": "Ventures",
+        "title": "Entrepreneurial ventures over time",
+        "description": "Read what {name} has been up to over the years"
+    },
     "work": {
         "label": "Karya",
         "title": "Proyek Saya",

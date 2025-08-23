@@ -13,6 +13,13 @@ export default async function sitemap() {
         }))
     );
 
+    let ventures = locales.flatMap((locale) => 
+        getPosts(['src', 'app', '[locale]', 'ventures', 'posts', locale]).map((post) => ({
+            url: `${baseURL}${includeLocalePrefix ? `/${locale}` : ''}/ventures/${post.slug}`,
+            lastModified: post.metadata.publishedAt,
+        }))
+    );
+
     let works = locales.flatMap((locale) => 
         getPosts(['src', 'app', '[locale]', 'work', 'projects', locale]).map((post) => ({
             url: `${baseURL}${includeLocalePrefix ? `/${locale}` : ''}/work/${post.slug}`,
@@ -29,5 +36,5 @@ export default async function sitemap() {
         }))
     );
 
-    return [...routes, ...casestudies, ...works]
+    return [...routes, ...casestudies, ...ventures, ...works]
 }

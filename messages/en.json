@@ -65,10 +65,15 @@
         "title": "Writing about design and tech...",
         "description": "Read what {name} has been up to recently"
     },
+     "ventures": {
+        "label": "Ventures",
+        "title": "Entrepreneurial ventures over time",
+        "description": "Read what {name} has been up to over the years"
+    },
     "work": {
         "label": "Work",
         "title": "My projects",
-        "description": "Design and dev projects by {name}"
+        "description": "Engineering and Product Design by {name}"
     },
     "gallery": {
         "label": "Gallery",
