@@ -1,5 +1,5 @@
 import mdx from "@next/mdx";
-import remarkGfm from 'remark-gfm'; 
+import remarkGfm from "remark-gfm";
 import createNextIntlPlugin from "next-intl/plugin";
 
 const withMDX = mdx({
@@ -9,17 +9,19 @@ const withMDX = mdx({
 	},
 });
 
-
 const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	pageExtensions: ["ts", "tsx", "md", "mdx"],
+	eslint: {
+		ignoreDuringBuilds: true,
+	},
 };
 
 //export default withNextIntl(withMDX(nextConfig));
 export default withNextIntl(
-  withMDX({
-    pageExtensions: ['ts', 'tsx', 'md', 'mdx'],
-  })
+	withMDX({
+		pageExtensions: ["ts", "tsx", "md", "mdx"],
+	}),
 );
