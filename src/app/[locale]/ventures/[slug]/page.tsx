@@ -28,7 +28,6 @@ export async function generateStaticParams() {
 		const posts = getPosts([
 			"src",
 			"app",
-			"[locale]",
 			"ventures",
 			"posts",
 			locale,
