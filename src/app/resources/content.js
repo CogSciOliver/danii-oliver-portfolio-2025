@@ -51,13 +51,14 @@ const home = {
 	subline: (
 		<>
 			I am a founder and strategist building ventures at the intersection
-			of product, technology, and market creation. From luxury activations
-			to SaaS platforms, breweries to AI, I’ve proven ideas in real
-			markets by bootstrapping them to 45% YOY growth with national
-			recognition. My strength is being fluent across industries and
-			audiences, bridging departmental silos, breaking down complexity,
-			and turning it into working systems. Now I’m entering the next
-			stage: scaling impact with venture partnerships and capital
+			of software engineering, technology products, and market creation.
+			From AI and SaaS in the digital world to products and activations in
+			the physical, I apply systems theory to build solutions that scale.
+			I’ve proven client ideas in real markets by bootstrapping them to 45% YOY
+			growth with national recognition. My strength is being fluent across
+			industries and audiences, bridging departmental silos, breaking down
+			complexity, and turning it into working systems. Now I’m entering
+			the next stage: scaling impact with venture partnerships and capital
 			alignment.
 		</>
 	),
