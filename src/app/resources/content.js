@@ -457,10 +457,18 @@ const about = {
 
 const casestudies = {
 	label: "Case Studies",
-	title: "Key takeaways from projects built to meet client expectations",
+	title: "Key takeaways from projects built to meet client needs",
 	description: `Read what ${person.name} has been up to recently`,
 	// Create new case study posts by adding a new .mdx file to app/casestudies/posts
 	// All posts will be listed on the /casestudies route
+};
+
+const ventures = {
+	label: "Ventures",
+	title: "Venture Journey pain points, action and successes",
+	description: `Read about ${person.name}'s venture journeys`,
+	// Create new venture posts by adding a new .mdx file to app/ventures/posts
+	// All posts will be listed on the /ventures route
 };
 
 const work = {
@@ -575,4 +583,4 @@ const gallery = {
 	],
 };
 
-export { person, social, newsletter, home, about, casestudies, work, gallery };
+export { person, social, newsletter, home, about, casestudies, work, gallery, ventures };
