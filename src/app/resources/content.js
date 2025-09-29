@@ -179,7 +179,7 @@ const about = {
 					},
 					{
 						src: "/images/gallery/project-chiva-02.jpg",
-						alt: "Chi'Va EMDR Therapy Session",
+						alt: "Chi'Va Mental Performance Enhancement Session",
 						width: 16,
 						height: 9,
 					},
@@ -487,7 +487,7 @@ const gallery = {
 	images: [
 		{
 			src: "/images/gallery/project-chiva-01.jpg",
-			alt: "Chi'Va EMDR Therapy Support",
+			alt: "Chi'Va Mental Performance Enhancement Support",
 			orientation: "horizontal",
 		},
 		{
