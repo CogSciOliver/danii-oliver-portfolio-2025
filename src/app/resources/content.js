@@ -54,12 +54,12 @@ const home = {
 			of software engineering, technology products, and market creation.
 			From AI and SaaS in the digital world to products and activations in
 			the physical, I apply systems theory to build solutions that scale.
-			I've proven client ideas in real markets by bootstrapping them to 45% YOY
-			growth with national recognition. My strength is being fluent across
-			industries and audiences, bridging departmental silos, breaking down
-			complexity, and turning it into working systems. Now I'm entering
-			the next stage: scaling impact with venture partnerships and capital
-			alignment.
+			I've proven client ideas in real markets by bootstrapping them to
+			45% YOY growth with national recognition. My strength is being
+			fluent across industries and audiences, bridging departmental silos,
+			breaking down complexity, and turning it into working systems. Now
+			I'm entering the next stage: scaling impact with venture
+			partnerships and capital alignment.
 		</>
 	),
 };
@@ -333,8 +333,9 @@ const about = {
 					<>
 						Built a bridge between creative vision and technical
 						execution; positioning clients to scale during waves of
-						change across publishing, marketing, health, food and
-						beverage, finance, gaming and entertainment sectors
+						change across tech enhanced finance, gaming, marketing,
+						wellness, food and beverage, construction, publishing
+						and entertainment sectors
 					</>,
 				],
 				images: [
@@ -583,4 +584,14 @@ const gallery = {
 	],
 };
 
-export { person, social, newsletter, home, about, casestudies, work, gallery, ventures };
+export {
+	person,
+	social,
+	newsletter,
+	home,
+	about,
+	casestudies,
+	work,
+	gallery,
+	ventures,
+};
