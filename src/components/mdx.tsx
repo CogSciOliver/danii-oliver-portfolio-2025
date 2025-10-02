@@ -1,4 +1,4 @@
-import styles from "./Table.module.scss";
+import styles from "@/components/Mdx.module.scss";
 import { MDXRemote, MDXRemoteProps } from "next-mdx-remote/rsc";
 import React, { ReactNode } from "react";
 
@@ -29,7 +29,7 @@ function Table({ data }: TableProps) {
 	));
 
 	return (
-		<table>
+		<table className={styles.table}>
 			<thead>
 				<tr>{headers}</tr>
 			</thead>
