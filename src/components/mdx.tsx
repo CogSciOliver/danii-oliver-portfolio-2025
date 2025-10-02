@@ -1,3 +1,4 @@
+import styles from "@/components/Table.module.scss";
 import { MDXRemote, MDXRemoteProps } from "next-mdx-remote/rsc";
 import React, { ReactNode } from "react";
 
@@ -17,12 +18,7 @@ type TableProps = {
 
 function Table({ data }: TableProps) {
 	const headers = data.headers.map((header, index) => (
-		<th
-			key={index}
-			className="border border-slate-300 px-4 py-2 bg-slate-100 text-left font-medium"
-		>
-			{header}
-		</th>
+		<th key={index}>{header}</th>
 	));
 	const rows = data.rows.map((row, index) => (
 		<tr key={index}>
