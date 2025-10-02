@@ -1,31 +1,29 @@
 .table {
-    border: 1px solid #555;
+	border: 1px solid #555;
 
-    th,
-    td {
-      border: 1px solid #555;
-      color: #e5e5e5;
-    }
+	th,
+	td {
+		border: 1px solid #555;
+		color: #e5e5e5;
+	}
 
-    thead {
-      background-color: #2d2d2d;
+	thead {
+		background-color: #2d2d2d;
 
-      th {
-        color: #fff;
-      }
-    }
+		th {
+			color: #fff;
+		}
+	}
 
-    tbody tr:nth-child(even) {
-      background-color: #1e1e1e; // zebra striping in dark mode
-    }
+	tbody tr:nth-child(even) {
+		background-color: #1e1e1e; // zebra striping in dark mode
+	}
 
-    tbody tr:nth-child(odd) {
-      background-color: #252525;
-    }
+	tbody tr:nth-child(odd) {
+		background-color: #252525;
+	}
 
-    tbody tr:hover {
-      background-color: #333; // hover highlight
-    }
-  }
+	tbody tr:hover {
+		background-color: #333; // hover highlight
+	}
 }
-
