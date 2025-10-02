@@ -1,4 +1,4 @@
-import styles from "@/components/Table.module.scss";
+import styles from "./Table.module.scss";
 import { MDXRemote, MDXRemoteProps } from "next-mdx-remote/rsc";
 import React, { ReactNode } from "react";
 
