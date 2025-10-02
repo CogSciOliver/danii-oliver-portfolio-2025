@@ -60,6 +60,17 @@ Now, both flows work seamlessly:
 |  | User selects a plan | Redirects to `/api/checkout?price=planId` |
 |  | After successful checkout | Redirects to the user's dashboard |
 
+<Table 
+    data=[[
+        headers:[Flow, Step, Fixed Behavior],
+        rows:[
+            [selectReg, User selects a plan, Redirects to `/register?price=planId`],
+            [],
+            [],
+            [],
+            [],
+        ]
+    ]]
 ---
 
 ##  Solution 2: Enhancing Data Security
@@ -79,12 +90,17 @@ Before our improvements, user emails and sensitive session data were passed in U
 ---
 
 ## Final Outcome
-| Improvement |  Benefit |
-|------------|------------|
-| Registration flow fixes | Users are correctly redirected to Stripe Checkout without looping back to register. |
-| Secure session handling | `useUser()` stores user session securely instead of relying on URL params. |
-| No exposed email in URLs | Prevents leaking personal user data in browser history or logs. |
-| Database queries optimized | Fetching only necessary fields improves security & performance. |
+<Table
+  data={{
+    headers: ["Improvement", "Benefit"],
+    rows: [
+      ["Registration flow fixes","Users are correctly redirected to Stripe Checkout without looping back to register."],
+      ["Secure session handling","`useUser()` stores user session securely instead of relying on URL params."],
+      ["No exposed email in URLs","Prevents leaking personal user data in browser history or logs."],
+      ["Database queries optimized ","Fetching only necessary fields improves security & performance."],
+      ]
+  }}
+/>
 
 ---
 
