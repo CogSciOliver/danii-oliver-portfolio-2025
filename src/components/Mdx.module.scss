@@ -12,7 +12,7 @@
 	}
 
 	thead {
-		background-color: #2d2d2d;
+		background-color: rgba(45, 45, 45, 0.2);
 
 		th {
 			font-weight: 600;
@@ -20,7 +20,7 @@
 	}
 
 	tbody tr:nth-child(even) {
-		background-color: #1e1e1e; // zebra striping
+		background-color: rgba(45, 45, 45, 0.2); // zebra striping
 	}
 
 	tbody tr:hover {
