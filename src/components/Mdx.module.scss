@@ -1,29 +1,59 @@
 .table {
+	border-collapse: collapse;
 	border: 1px solid #555;
+	width: 100%;
+	margin: 1.5rem 0;
 
 	th,
 	td {
 		border: 1px solid #555;
-		color: #e5e5e5;
+		padding: 0.75rem 1rem;
+		text-align: left;
 	}
 
 	thead {
 		background-color: #2d2d2d;
 
 		th {
-			color: #fff;
+			font-weight: 600;
 		}
 	}
 
 	tbody tr:nth-child(even) {
-		background-color: #1e1e1e; // zebra striping in dark mode
-	}
-
-	tbody tr:nth-child(odd) {
-		background-color: #252525;
+		background-color: #1e1e1e; // zebra striping
 	}
 
 	tbody tr:hover {
-		background-color: #333; // hover highlight
+		background-color: #252525; // optional: highlight on hover
 	}
 }
+
+// .table {
+// 	border: 1px solid #555;
+
+// 	th,
+// 	td {
+// 		border: 1px solid #555;
+// 		color: #e5e5e5;
+// 	}
+
+// 	thead {
+// 		background-color: #2d2d2d;
+
+// 		th {
+// 			color: #fff;
+// 		}
+// 	}
+
+// 	tbody tr:nth-child(even) {
+// 		background-color: #1e1e1e; // zebra striping in dark mode
+// 	}
+
+// 	tbody tr:nth-child(odd) {
+// 		background-color: #252525;
+// 	}
+
+// 	tbody tr:hover {
+// 		background-color: #333; // hover highlight
+// 	}
+// }
