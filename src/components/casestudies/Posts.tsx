@@ -11,7 +11,7 @@ interface PostsProps {
 
 export function Posts({
     range,
-    columns = '1',
+    columns = '2',
     locale = 'en',
     thumbnail = false
 }: PostsProps) {
