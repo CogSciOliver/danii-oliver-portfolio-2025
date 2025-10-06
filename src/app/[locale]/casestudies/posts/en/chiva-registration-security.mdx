@@ -52,23 +52,16 @@ We refactored how the app manages `registrationFlow`, ensuring smooth redirectio
 4. Properly redirected users to `/api/checkout?price=planId` instead of `/register`.
 
 Now, both flows work seamlessly:
-| Flow | Step | Fixed Behavior |
-|------|------|------------------|
-| selectReg | User selects a plan | Redirects to `/register?price=planId` |
-|  | User registers | Redirects to Stripe Checkout (`/api/checkout`) |
-| regSelect | User registers first | Redirects to `/pricing` to select a plan |
-|  | User selects a plan | Redirects to `/api/checkout?price=planId` |
-|  | After successful checkout | Redirects to the user's dashboard |
 
 <Table 
     data={{
         headers:["Flow", "Step", "Fixed Behavior"],
         rows:[
             ["selectReg", "User selects a plan", "Redirects to `/register?price=planId`"],
-            ["","",""],
-            ["","",""],
-            ["","",""],
-            ["","",""],
+            ["User registers","Redirects to Stripe Checkout"," (`/api/checkout`)"],
+            ["regSelect","User registers first","Redirects to `/pricing` to select a plan"],
+            [" ","User selects a plan","Redirects to `/api/checkout?price=planId`"],
+            [" ","After successful checkout","Redirects to the user's dashboard"],
         ]
     }}
 />
