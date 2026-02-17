@@ -1,4 +1,107 @@
-# **Build your portfolio with Once UI's Magic Portfolio**
+# Danii Oliver Portfolio (npm-only)
+
+Personal portfolio site built with Next.js.
+
+---
+
+## 🚨 NPM ONLY POLICY
+
+This repository is strictly **npm-only**. Do NOT use pnpm, yarn, or other package managers.
+
+Installing dependencies with another package manager can break your build and cause peer dependency conflicts.
+
+---
+
+## 📦 Installation
+
+Use npm only:
+
+```bash
+npm install
+```
+
+Ensure you only have one lockfile (`package-lock.json`) and remove any others:
+
+```bash
+rm -rf node_modules pnpm-lock.yaml yarn.lock package-lock.json
+npm install
+```
+
+---
+
+## 📌 Pinned Dependency Versions
+
+* next: 14.2.35
+* next-intl: 3.23.5
+* next-mdx-remote: 6.0.0
+* @next/mdx: 14.2.16
+* react: 18.3.1
+* react-dom: 18.3.1
+
+All other dependencies are pinned to exact versions in package.json to prevent automatic upgrades and ensure stable builds.
+
+---
+
+## ▶️ Development
+
+```bash
+npm run dev
+```
+
+---
+
+## 🏗 Build
+
+```bash
+npm run build
+```
+
+---
+
+## 🚀 Production Start
+
+```bash
+npm run start
+```
+
+---
+
+## 🛡 Preinstall Check (npm Enforcement)
+
+Add this to package.json scripts:
+
+```json
+"preinstall": "node ./scripts/check-npm.js"
+```
+
+Create `./scripts/check-npm.js`:
+
+```js
+if (process.env.npm_execpath && !process.env.npm_execpath.includes('npm')) {
+  console.error('\n🚨 Only npm is allowed. Remove pnpm/yarn.\n');
+  process.exit(1);
+}
+```
+
+This ensures no one accidentally installs with pnpm or yarn.
+
+---
+
+## 🧼 Lockfile Enforcement
+
+Always commit `package-lock.json` after any dependency changes. This guarantees reproducible builds and prevents peer dependency conflicts.
+
+---
+
+## 📝 Notes
+
+* Do NOT run `npm audit fix --force` — it may upgrade Next to v16, breaking peer dependencies.
+* Your current setup is stable and fully reproducible.
+* Wait for upstream packages to support Next 16 before upgrading.
+
+# Repo Clone Credit: 
+
+## **Build your portfolio with Once UI's Magic Portfolio**
 
 View the [demo here](https://demo.magic-portfolio.com).
 
