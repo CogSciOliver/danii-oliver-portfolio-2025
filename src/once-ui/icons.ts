@@ -29,7 +29,7 @@ import {
 	PiImageDuotone,
 } from "react-icons/pi";
 
-import { FaDiscord, FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import { FaDiscord, FaGithub, FaLinkedin, FaXTwitter, FaFire } from "react-icons/fa6";
 
 import { AiOutlineHdd } from "react-icons/ai";
 
@@ -62,4 +62,5 @@ export const iconLibrary: Record<string, IconType> = {
 	x: FaXTwitter,
 	clipboard: HiClipboard,
 	qiaCorp: AiOutlineHdd,
+	flame: FaFire,
 };
