@@ -175,7 +175,7 @@ export const Header = () => {
 							)}
 							{routes["/ventures"] && (
 								<ToggleButton
-									prefixIcon="gallery"
+									prefixIcon="venture"
 									href={`/${params?.locale}/ventures`}
 									selected={pathname.startsWith("/ventures")}
 								>
