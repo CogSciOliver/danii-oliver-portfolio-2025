@@ -1,9 +1,10 @@
 import { Flex, Heading } from '@/once-ui/components';
 import { Mailchimp } from '@/components';
-import { Posts } from '@/components/casestudies/Posts';
+
 import { baseURL, renderContent } from '@/app/resources'
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
+import { Endeavors } from '@/components/ventures/Endeavors';
 
 export async function generateMetadata(
 	{params: {locale}}: { params: { locale: string }}
@@ -40,13 +41,13 @@ export async function generateMetadata(
 	};
 }
 
-export default function CaseStudies(
+export default function Ventures(
 	{ params: {locale}}: { params: { locale: string }}
 ) {
 	unstable_setRequestLocale(locale);
 
 	const t = useTranslations();
-	const { person, casestudies, newsletter } = renderContent(t);
+	const { person, ventures, newsletter } = renderContent(t);
     return (
         <Flex
 			fillWidth maxWidth="s"
@@ -58,10 +59,10 @@ export default function CaseStudies(
 					__html: JSON.stringify({
 						'@context': 'https://schema.org',
 						'@type': 'Blog',
-						headline: casestudies.title,
-						description: casestudies.description,
-						url: `https://${baseURL}/casestudies`,
-						image: `${baseURL}/og?title=${encodeURIComponent(casestudies.title)}`,
+						headline: ventures.title,
+						description: ventures.description,
+						url: `https://${baseURL}/ventures`,
+						image: `${baseURL}/og?title=${encodeURIComponent(ventures.title)}`,
 						author: {
 							'@type': 'Person',
 							name: person.name,
@@ -76,12 +77,12 @@ export default function CaseStudies(
             <Heading
                 marginBottom="l"
                 variant="display-strong-s">
-                {casestudies.title}
+                {ventures.title}
             </Heading>
 			<Flex
 				fillWidth flex={1} direction="column">
-				<Posts range={[1,4]} locale={locale} thumbnail/>
-				<Posts range={[5]} columns="2" locale={locale}/>
+				<Endeavors range={[1,4]} locale={locale} thumbnail/>
+				<Endeavors range={[5]} columns="2" locale={locale}/>
 			</Flex>
             {newsletter.display && (
                 <Mailchimp newsletter={newsletter} />

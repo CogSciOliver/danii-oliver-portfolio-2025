@@ -9,7 +9,7 @@ interface PostsProps {
 	thumbnail?: boolean;
 }
 
-export function Posts({
+export function Endeavors({
 	range,
 	columns = "1",
 	locale = "en",
