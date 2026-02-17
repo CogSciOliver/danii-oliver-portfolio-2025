@@ -188,7 +188,7 @@ const createI18nContent = (t) => {
 		label: "Ventures",
 		title: "Venture Journey pain points, action and successes",
 		description: `Read about ${person.name}'s venture journeys`,
-		// Create new venture posts by adding a new .mdx file to app/ventures/posts
+		// Create new venture posts by adding a new .mdx file to app/ventures/endeavors
 		// All posts will be listed on the /ventures route
 	};
 
@@ -196,7 +196,7 @@ const createI18nContent = (t) => {
 		label: t("work.label"),
 		title: t("work.title"),
 		description: t("work.description", { name: person.name }),
-		// Create new project pages by adding a new .mdx file to app/casestudies/posts
+		// Create new project pages by adding a new .mdx file to app/work/projects
 		// All projects will be listed on the /home and /work routes
 	};
 

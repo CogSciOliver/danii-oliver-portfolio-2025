@@ -90,7 +90,7 @@ const about = {
 				need breaking, and resilience is non-negotiable.
 				<br />
 				<br />
-				I’ve bootstrapped ventures with my own capital, proving their
+				I’ve bootstrapped ventures, proving their
 				strength in real markets while scaling consumer brands to
 				national recognition, launching platforms recognized by
 				Bloomberg and Nasdaq, and incubating platforms that reshaped
@@ -465,7 +465,7 @@ const ventures = {
 	label: "Ventures",
 	title: "Venture Journey pain points, action and successes",
 	description: `Read about ${person.name}'s venture journeys`,
-	// Create new venture posts by adding a new .mdx file to app/ventures/posts
+	// Create new venture posts by adding a new .mdx file to app/ventures/endeavors
 	// All posts will be listed on the /ventures route
 };
 
@@ -473,7 +473,7 @@ const work = {
 	label: "Work",
 	title: "Product Projects",
 	description: `Business product projects by ${person.name}`,
-	// Create new project pages by adding a new .mdx file to app/casestudies/posts
+	// Create new project pages by adding a new .mdx file to app/work/projects
 	// All projects will be listed on the /home and /work routes
 };
 

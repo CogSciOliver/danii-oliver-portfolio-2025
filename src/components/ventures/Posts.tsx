@@ -20,7 +20,7 @@ export function Posts({
 		"app",
 		"[locale]",
 		"ventures",
-		"posts",
+		"endeavors",
 		locale,
 	]);
 

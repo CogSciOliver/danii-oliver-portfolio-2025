@@ -30,7 +30,7 @@ export async function generateStaticParams() {
 			"app",
 			"[locale]",
 			"ventures",
-			"posts",
+			"endeavors",
 			locale,
 		]);
 		allPosts.push(
@@ -50,7 +50,7 @@ export function generateMetadata({ params: { slug, locale } }: VenturesParams) {
 		"app",
 		"[locale]",
 		"ventures",
-		"posts",
+		"endeavors",
 		locale,
 	]).find((post) => post.slug === slug);
 
@@ -99,7 +99,7 @@ export default function Ventures({ params }: VenturesParams) {
 		"app",
 		"[locale]",
 		"ventures",
-		"posts",
+		"endeavors",
 		params.locale,
 	]).find((post) => post.slug === params.slug);
 
