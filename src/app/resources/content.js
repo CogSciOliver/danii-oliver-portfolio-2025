@@ -6,7 +6,7 @@ const person = {
 	get name() {
 		return `${this.firstName} ${this.lastName}`;
 	},
-	role: "Entrepreneur | Founder | Strategist | Innovation Executive",
+	role: "Software Engineer | Product Strategist | Cognitive Scientist",
 	avatar: "/images/Danii-Oliver-AI-Consultant.png",
 	location: "America/New York/Texas", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
 	languages: ["LLMOps", "AI", "Strategy", "Leadership", "Product Innovation"], // optional: Leave the array empty if you don't want to display languages
@@ -47,19 +47,16 @@ const home = {
 	label: "Home",
 	title: `${person.name}'s Bio`,
 	description: `Demonstrating leadership in ${person.role} Leadership.`,
-	headline: <>Entrepreneur | Founder | Strategist | Innovation Executive</>,
+	headline: <>Software Engineer | Product Strategist | Cognitive Scientist</>,
 	subline: (
 		<>
-			I am a founder and strategist building ventures at the intersection
-			of software engineering, technology products, and market creation.
-			From AI and SaaS in the digital world to products and activations in
-			the physical, I apply systems theory to build solutions that scale.
-			I've proven client ideas in real markets by bootstrapping them to
-			45% YOY growth with national recognition. My strength is being
+			Software Engineer and strategist building product ventures at the intersection
+			of engineering, cognition, and market readiness.
+			Applying systems theory to build solutions that scale.
+			Proven client ideas in real markets by bootstrapping them to
+			45% YOY growth with national recognition. Main strength is being
 			fluent across industries and audiences, bridging departmental silos,
-			breaking down complexity, and turning it into working systems. Now
-			I'm entering the next stage: scaling impact with venture
-			partnerships and capital alignment.
+			breaking down complexity, and turning ideas into scalable systems.
 		</>
 	),
 };
