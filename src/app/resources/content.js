@@ -1,13 +1,13 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-	firstName: "Dan C.",
+	firstName: "Danii",
 	lastName: "Oliver",
 	get name() {
 		return `${this.firstName} ${this.lastName}`;
 	},
 	role: "Software Engineer, Product Strategist & Cognitive Scientist",
-	avatar: "/images/Dan C.-Oliver-AI-Consultant.png",
+	avatar: "/images/Danii-Oliver-AI-Consultant.png",
 	location: "America/New York/Texas", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
 	languages: ["LLMOps", "AI", "Strategy", "Leadership", "Product Innovation"], // optional: Leave the array empty if you don't want to display languages
 };

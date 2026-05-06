@@ -1,4 +1,4 @@
-# Dan C. Oliver Portfolio (npm-only)
+# Danii Oliver Portfolio (npm-only)
 
 Personal portfolio site built with Next.js.
 
